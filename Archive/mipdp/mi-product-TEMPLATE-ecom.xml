@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <folder folder-id="root">
+        <online-flag>true</online-flag>
+        <page-attributes/>
+    </folder>
+
+       <content content-id="mi-product-4000857">
+        <display-name xml:lang="de">mi Samba</display-name>
+        <display-name xml:lang="x-default">mi Samba</display-name>
+        <display-name xml:lang="en-US">mi Samba</display-name>
+        <display-name xml:lang="es">mi Samba</display-name>
+        <display-name xml:lang="fr-FR">mi Samba</display-name>
+        <display-name xml:lang="it">mi Samba</display-name>
+        <display-name xml:lang="ja-JP">mi Samba</display-name>
+        <display-name xml:lang="nl">mi Samba</display-name>
+        <display-name xml:lang="pl">Obuwie mi Samba</display-name>
+		<display-name xml:lang="sk-SK">mi Samba</display-name>
+		<display-name xml:lang="cs-CZ">mi Samba</display-name>
+		<display-name xml:lang="ru">mi Samba</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <template>/rendering/product/overviewasset</template>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="callOutText" xml:lang="de">Trage eine Legende</custom-attribute>
+            <custom-attribute attribute-id="callOutText" xml:lang="x-default">Step Into an Icon</custom-attribute>
+            <custom-attribute attribute-id="callOutText" xml:lang="en-US">Step Into an Icon</custom-attribute>
+            <custom-attribute attribute-id="callOutText" xml:lang="es">Un icono a tus pies</custom-attribute>
+            <custom-attribute attribute-id="callOutText" xml:lang="fr-FR">Une légende à tes pieds</custom-attribute>
+            <custom-attribute attribute-id="callOutText" xml:lang="it">Indossa una scarpa leggendaria</custom-attribute>
+            <custom-attribute attribute-id="callOutText" xml:lang="ja-JP">Step Into an Icon</custom-attribute>
+            <custom-attribute attribute-id="callOutText" xml:lang="nl">Step Into an Icon</custom-attribute>
+            <custom-attribute attribute-id="callOutText" xml:lang="zh">跨入品牌</custom-attribute>
+			<custom-attribute attribute-id="callOutText" xml:lang="pl">But – legenda</custom-attribute>
+			<custom-attribute attribute-id="callOutText" xml:lang="sk-SK">Obujte si ikonu</custom-attribute>
+			<custom-attribute attribute-id="callOutText" xml:lang="cs-CZ">Obujte si legendu</custom-attribute>
+			<custom-attribute attribute-id="callOutText" xml:lang="ru"> </custom-attribute>
+            <custom-attribute attribute-id="colorSwatches">
+                <value>http://shop.miteam.adidas.com/static/images/colors/fm2_amazon_green.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_bahia_magenta.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_bahia_mint.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_black.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_black_silver.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_bluebird.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_collegiate_red.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_dark_violet.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_glow.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_gum_3.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_joy_orange.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_mid_grey.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_red_zest.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_silver.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_solar_blue.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_sub_blue.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_tech_grey.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_tent_green.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_tribe_blue.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_tribe_yellow.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_vivid_pink.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_vivid_red.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_vivid_teal.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_vivid_yellow.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/fm2_wheat.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/White_new.png </value>
+				<value>http://shop.miteam.adidas.com/static/images/colors/White.png</value>
+            </custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="de">Farben</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="x-default">Colours</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="en-US">Colors</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="es">Colores</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="fr-FR">Couleurs</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="it">Colori</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="ja-JP">カラー</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="nl">Kleuren</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="zh">颜色</custom-attribute>
+			<custom-attribute attribute-id="colorTitle" xml:lang="pl">Kolory</custom-attribute>
+			<custom-attribute attribute-id="colorTitle" xml:lang="sk-SK">Farby</custom-attribute>
+			<custom-attribute attribute-id="colorTitle" xml:lang="cs-CZ">Barvy</custom-attribute>
+			<custom-attribute attribute-id="colorTitle" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="designGalleryImage">04_PDP/miTeam_Generic_Design_Gallery_Apparel_120529.png</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="de">Design-Galerie</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="x-default">Design Starter</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="en-US">Design Starter</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="es">Galería de diseños</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="fr-FR">Galerie de designs</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="it">Design Gallery</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="ja-JP">デザインギャラリー</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="nl">Ontwerpgalerij</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="zh">设计廊</custom-attribute>
+			<custom-attribute attribute-id="designGalleryImageAltText" xml:lang="pl">Zacznij personalizownie</custom-attribute>
+			<custom-attribute attribute-id="designGalleryImageAltText" xml:lang="sk-SK">Začni personalizáciu</custom-attribute>
+			<custom-attribute attribute-id="designGalleryImageAltText" xml:lang="cs-CZ">Začít personalizaci</custom-attribute>
+			<custom-attribute attribute-id="designGalleryImageAltText" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="de">Lass dich inspirieren</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="x-default">Get inspired</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="en-US">Get inspired</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="es">¡Inspírate!</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="fr-FR">Inspire-toi</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="it">Trova il prodotto giusto per te</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="ja-JP">デザインのヒント</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="nl">Laat je inspireren</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="zh">获取灵感！</custom-attribute>
+			<custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="pl">Inspiruj się</custom-attribute>
+			<custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="sk-SK">Inšpiruj sa</custom-attribute>
+			<custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="cs-CZ">Inspiruj se</custom-attribute>
+			<custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="featureImage1">04_PDP/originals/mi Forum Mid/mi_forum_mid_feature1_2014.jpg</custom-attribute>
+            <custom-attribute attribute-id="featureImage2">04_PDP/originals/mi Forum Mid/mi_forum_mid_feature2_2014.jpg</custom-attribute>
+            <custom-attribute attribute-id="featureImage3">04_PDP/originals/mi Forum Mid/mi_forum_mid_feature3_2014.jpg</custom-attribute>
+            <custom-attribute attribute-id="featureImageAlign1">right</custom-attribute>
+            <custom-attribute attribute-id="featureImageAlign2">left</custom-attribute>
+            <custom-attribute attribute-id="featureImageAlign3">right</custom-attribute>
+            <custom-attribute attribute-id="featureText1" xml:lang="de">&lt;p&gt; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="featureText1" xml:lang="x-default">&lt;p&gt; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="featureText1" xml:lang="en-US">&lt;p&gt; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="featureText1" xml:lang="es">&lt;p&gt; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="featureText1" xml:lang="fr-FR">&lt;p&gt; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="featureText1" xml:lang="it">&lt;p&gt;&amp; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="featureText1" xml:lang="ja-JP">&lt;p&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="featureText1" xml:lang="nl">&lt;p&gt; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="featureText1" xml:lang="zh">&lt;p&gt; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+			<custom-attribute attribute-id="featureText1" xml:lang="pl">&lt;p&gt; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+			<custom-attribute attribute-id="featureText1" xml:lang="sk-SK">&lt;p&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+			<custom-attribute attribute-id="featureText1" xml:lang="cs-CZ">&lt;p&gt;  &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;&#13;
+&lt;p&gt;&amp;bull; &lt;/p&gt;</custom-attribute>
+			<custom-attribute attribute-id="featureText1" xml:lang="ru"></custom-attribute>
+			
+            <custom-attribute attribute-id="featureText2" xml:lang="de"></custom-attribute>
+            <custom-attribute attribute-id="featureText2" xml:lang="x-default"></custom-attribute>
+            <custom-attribute attribute-id="featureText2" xml:lang="en-US"></custom-attribute>
+            <custom-attribute attribute-id="featureText2" xml:lang="es"></custom-attribute>
+            <custom-attribute attribute-id="featureText2" xml:lang="fr-FR"></custom-attribute>
+            <custom-attribute attribute-id="featureText2" xml:lang="it"></custom-attribute>
+            <custom-attribute attribute-id="featureText2" xml:lang="ja-JP"></custom-attribute>
+            <custom-attribute attribute-id="featureText2" xml:lang="nl"></custom-attribute>
+            <custom-attribute attribute-id="featureText2" xml:lang="zh"></custom-attribute>
+			<custom-attribute attribute-id="featureText2" xml:lang="pl"></custom-attribute>
+			<custom-attribute attribute-id="featureText2" xml:lang="sk-SK"></custom-attribute>
+			<custom-attribute attribute-id="featureText2" xml:lang="cs-CZ"></custom-attribute>
+			<custom-attribute attribute-id="featureText2" xml:lang="ru"></custom-attribute>
+            
+			<custom-attribute attribute-id="featureText3" xml:lang="de"></custom-attribute>
+            <custom-attribute attribute-id="featureText3" xml:lang="x-default"></custom-attribute>
+            <custom-attribute attribute-id="featureText3" xml:lang="en-US"></custom-attribute>
+            <custom-attribute attribute-id="featureText3" xml:lang="es"></custom-attribute>
+            <custom-attribute attribute-id="featureText3" xml:lang="fr-FR"></custom-attribute>
+            <custom-attribute attribute-id="featureText3" xml:lang="it"></custom-attribute>
+            <custom-attribute attribute-id="featureText3" xml:lang="ja-JP"></custom-attribute>
+            <custom-attribute attribute-id="featureText3" xml:lang="nl"></custom-attribute>
+            <custom-attribute attribute-id="featureText3" xml:lang="zh"></custom-attribute>
+			<custom-attribute attribute-id="featureText3" xml:lang="pl"></custom-attribute>
+			<custom-attribute attribute-id="featureText3" xml:lang="sk-SK"></custom-attribute>
+			<custom-attribute attribute-id="featureText3" xml:lang="cs-CZ"></custom-attribute>
+			<custom-attribute attribute-id="featureText3" xml:lang="ru"></custom-attribute>
+			
+			<custom-attribute attribute-id="featureTitle1" xml:lang="de"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle1" xml:lang="x-default"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle1" xml:lang="en-US"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle1" xml:lang="es"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle1" xml:lang="fr-FR"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle1" xml:lang="it"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle1" xml:lang="ja-JP"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle1" xml:lang="nl"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle1" xml:lang="zh"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle1" xml:lang="pl"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle1" xml:lang="sk-SK"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle1" xml:lang="cs-CZ"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle1" xml:lang="ru"></custom-attribute>
+            
+			<custom-attribute attribute-id="featureTitle2" xml:lang="de"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle2" xml:lang="x-default"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle2" xml:lang="en-US"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle2" xml:lang="es"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle2" xml:lang="fr-FR"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle2" xml:lang="it"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle2" xml:lang="ja-JP"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle2" xml:lang="nl"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle2" xml:lang="zh"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle2" xml:lang="pl"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle2" xml:lang="sk-SK"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle2" xml:lang="cs-CZ"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle2" xml:lang="ru"></custom-attribute>
+            
+			<custom-attribute attribute-id="featureTitle3" xml:lang="de"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle3" xml:lang="x-default"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle3" xml:lang="en-US"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle3" xml:lang="es"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle3" xml:lang="fr-FR"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle3" xml:lang="it"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle3" xml:lang="ja-JP"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle3" xml:lang="nl"></custom-attribute>
+            <custom-attribute attribute-id="featureTitle3" xml:lang="zh"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle3" xml:lang="pl"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle3" xml:lang="sk-SK"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle3" xml:lang="cs-CZ"></custom-attribute>
+			<custom-attribute attribute-id="featureTitle3" xml:lang="ru"></custom-attribute>
+			
+            <custom-attribute attribute-id="introText" xml:lang="de"></custom-attribute>
+            <custom-attribute attribute-id="introText" xml:lang="x-default"></custom-attribute>
+            <custom-attribute attribute-id="introText" xml:lang="en-US"></custom-attribute>
+            <custom-attribute attribute-id="introText" xml:lang="es"></custom-attribute>
+            <custom-attribute attribute-id="introText" xml:lang="fr-FR"></custom-attribute>
+            <custom-attribute attribute-id="introText" xml:lang="it"></custom-attribute>
+            <custom-attribute attribute-id="introText" xml:lang="ja-JP"></custom-attribute>
+            <custom-attribute attribute-id="introText" xml:lang="nl"></custom-attribute>
+            <custom-attribute attribute-id="introText" xml:lang="zh"></custom-attribute>
+			<custom-attribute attribute-id="introText" xml:lang="pl"></custom-attribute>
+			<custom-attribute attribute-id="introText" xml:lang="sk-SK"></custom-attribute>
+			<custom-attribute attribute-id="introText" xml:lang="cs-CZ"></custom-attribute>
+			<custom-attribute attribute-id="introText" xml:lang="ru"></custom-attribute>
+			
+            <custom-attribute attribute-id="materialTitle" xml:lang="de">Materialien</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="x-default">Materials</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="en-US">Materials</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="es">Materiales</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="fr-FR">Matières</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="it">Materiali</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="ja-JP">素材</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="nl">Materiaal</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="zh">物料</custom-attribute>
+			<custom-attribute attribute-id="materialTitle" xml:lang="pl">Materiały</custom-attribute>
+			<custom-attribute attribute-id="materialTitle" xml:lang="sk-SK">Materiály</custom-attribute>
+			<custom-attribute attribute-id="materialTitle" xml:lang="cs-CZ">Materiály</custom-attribute>
+			<custom-attribute attribute-id="materialTitle" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="de">45 Tage</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="x-default">45 days</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="en-US">60 days</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="es">45 días</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="fr-FR">45 jours</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="it">45 giorni</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="ja-JP">4～6週間</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="nl">45 dagen</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="zh">4-6周</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="pl">45 dni</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="sk">45 dní</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="cs-CZ">45 dnů</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="de">Lieferzeiten</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="x-default">Delivery Time</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="en-US">Delivery Time</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="es">Plazos de entrega</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="fr-FR">Délai de livraison</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="it">Tempi di consegna</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="ja-JP">お届け予定</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="nl">Levertijd</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="zh">发货时间</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="pl">Termin dostawy</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="sk-SK">Dodacia lehota</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="cs-CZ">Dodací lhůta</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="ru"></custom-attribute>
+            
+			<custom-attribute attribute-id="orderDetailsMinimumQty">1</custom-attribute>
+			
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="de">Mindestbestellmenge</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="x-default">Minimum Order Quantity</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="en-US">Minimum Order Quantity</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="es">Cantidad mínima de pedido</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="fr-FR">Quantité minimum de commande</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="it">Quantità ordine minimo</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="ja-JP">最低注文数量</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="nl">Minimum bestelaantal</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="zh">最低起订量</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="pl">Minimalne zamówienie</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="sk-SK">Minimálne odberové množstvo</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="cs-CZ">Minimální objednávací množství</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="de">Bestellinformationen</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="x-default">Order Details</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="en-US">Order Details</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="es">Datos del pedido</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="fr-FR">Détails de la commande</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="it">Dettagli ordine</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="ja-JP">ご注文内容</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="nl">Bestelgegevens</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="zh">订单详情</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsTitle" xml:lang="pl">Szczegóły zamówienia</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsTitle" xml:lang="sk-SK">Detaily objednávky</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsTitle" xml:lang="cs-CZ">Detaily objednávky</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsTitle" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="sizeDetails" xml:lang="x-default">{&#13;
+"M":{"FR":"36 2/3-50 2/3","JP":"225.0-330.0","UK":"4.0-14.5","US":"4.5-15.0"},
+"W":{"FR":"36 2/3-50 2/3","JP":"225.0-330.0","UK":"4.0-14.5","US":"5.5-"}&#13;
+}</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="de">Größen</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="x-default">Sizes</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="en-US">Sizes</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="es">Tallas</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="fr-FR">Tailles</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="it">Misure</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="ja-JP">サイズ</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="nl">Maten</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="zh">尺寸</custom-attribute>
+			<custom-attribute attribute-id="sizeTitle" xml:lang="pl">Rozmiary</custom-attribute>
+			<custom-attribute attribute-id="sizeTitle" xml:lang="sk-SK">Veľkosti</custom-attribute>
+			<custom-attribute attribute-id="sizeTitle" xml:lang="cs-CZ">Velikosti</custom-attribute>
+			<custom-attribute attribute-id="sizeTitle" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="de">Hier findest du nur einige von ganz vielen Möglichkeiten, um deine Produkte mit mi adidas zu personalisieren.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="x-default">Below are just some of the options available to truly make your custom mi adidas product your own.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="en-US">Below are just some of the options available to truly make your custom mi adidas product your own.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="es">A continuación te mostramos algunas de las opciones disponibles para que crees un producto mi adidas verdaderamente único.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="fr-FR">Voici quelques-unes des options disponibles pour créer ton produit mi adidas personnalisé et le rendre unique.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="it">Scopri in basso alcune delle opzioni disponibili per rendere davvero tuoi i prodotti personalizzati mi adidas.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="ja-JP">以下のオプションでカスタマイズして、自分だけのmi adidas製品をデザインしよう。</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="nl">Hieronder zie je een paar van de vele opties waaruit je kunt kiezen om jouw mi adidas artikelen helemaal uniek te maken.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="zh">以下选项可让您真正随意定制属于自己的 mi adidas 产品。</custom-attribute>
+			<custom-attribute attribute-id="specsText" xml:lang="pl">Poniżej kilka z wielu opcji, które pomogą Ci personalizować produkt adidas dokładnie tak, jak chcesz.</custom-attribute>
+			<custom-attribute attribute-id="specsText" xml:lang="sk-SK">Nižšie môžete vidieť niektoré z mnohých možností, ktoré vám umožnia prispôsobiť si váš mi adidas produkt sk-SKutočne na svoj obraz.</custom-attribute>
+			<custom-attribute attribute-id="specsText" xml:lang="cs-CZ">Níže můžete vidět několik z mnoha možností, díky kterým si můžete svůj mi adidas produkt přizpůsobit přesně podle sebe.</custom-attribute>
+			<custom-attribute attribute-id="specsText" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="de">Kreiere deinen Style</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="x-default">Build Your Style</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="en-US">Build Your Style</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="es">Crea tu estilo</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="fr-FR">Crée ton style</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="it">Crea il tuo stile</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="ja-JP">Build Your Style</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="nl">Je eigen stijl</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="zh">打造个性风格</custom-attribute>
+			<custom-attribute attribute-id="specsTitle" xml:lang="pl">Zbuduj swój styl</custom-attribute>
+			<custom-attribute attribute-id="specsTitle" xml:lang="sk-SK">Zostavte si svoj ​​štýl</custom-attribute>
+			<custom-attribute attribute-id="specsTitle" xml:lang="cs-CZ">Sestavte si svůj styl</custom-attribute>
+			<custom-attribute attribute-id="specsTitle" xml:lang="ru"></custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="PDPCONTENT"/>
+        </folder-links>
+    </content>
+
+
+</library>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?><library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <folder folder-id="root">
+        <online-flag>true</online-flag>
+        <page-attributes/>
+    </folder>
+
+       <content content-id="mi-product-4000857">
+
+					<display-name xml:lang="en-GB">mi Pro Model</display-name>
+					<display-name xml:lang="en-US">mi Pro Model</display-name>
+					<display-name xml:lang="nl">mi Pro Model</display-name>
+					<display-name xml:lang="fr-FR">mi Pro Model</display-name>
+					<display-name xml:lang="de-DE">mi Pro Model</display-name>
+					<display-name xml:lang="it">mi Pro Model</display-name>
+					<display-name xml:lang="es">mi Pro Model</display-name>
+					<display-name xml:lang="zh">mi Pro Model</display-name>
+					<display-name xml:lang="ja-JP">mi SS</display-name>
+					<display-name xml:lang="cs-CZ">mi Pro Model</display-name>
+					<display-name xml:lang="pl">Obuwie mi Pro Model</display-name>
+					<display-name xml:lang="sk-SK">mi Pro Model</display-name>
+			   
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <template>/rendering/product/overviewasset</template>
+        <page-attributes/>
+        <custom-attributes>
+        
+							<custom-attribute attribute-id="callOutText" xml:lang="en-GB">Shell Toes Forever</custom-attribute>
+							<custom-attribute attribute-id="callOutText" xml:lang="en-US">Shell Toes Forever</custom-attribute>
+							<custom-attribute attribute-id="callOutText" xml:lang="nl">We love shell toes</custom-attribute>
+							<custom-attribute attribute-id="callOutText" xml:lang="fr-FR">Forever Pro Model</custom-attribute>
+							<custom-attribute attribute-id="callOutText" xml:lang="de-DE">Shell-Toes forever</custom-attribute>
+							<custom-attribute attribute-id="callOutText" xml:lang="it">La leggendaria punta a conchiglia</custom-attribute>
+							<custom-attribute attribute-id="callOutText" xml:lang="es">Punteras para siempre</custom-attribute>
+							<custom-attribute attribute-id="callOutText" xml:lang="zh">永远的贝壳头</custom-attribute>
+							<custom-attribute attribute-id="callOutText" xml:lang="ja-JP">Shell Toes Forever</custom-attribute>
+							<custom-attribute attribute-id="callOutText" xml:lang="cs-CZ"></custom-attribute>
+							<custom-attribute attribute-id="callOutText" xml:lang="pl"></custom-attribute>
+							<custom-attribute attribute-id="callOutText" xml:lang="sk-SK"></custom-attribute>
+			
+		    
+						<custom-attribute attribute-id="introText" xml:lang="en-GB">Unmistakable on the court when it debuted, it’s been unforgettable on the street ever since. The adidas mi Pro Model channels the celebrated past of a true sneaker icon that’s been everywhere that hip-hop, DJs, MCs, breakdancers and graffiti artists have been in the last 40 years.</custom-attribute>
+						<custom-attribute attribute-id="introText" xml:lang="en-US">Unmistakable on the court when it debuted, it’s been unforgettable on the street ever since. The adidas mi Pro Model channels the celebrated past of a true sneaker icon that’s been everywhere that hip-hop, DJs, MCs, breakdancers and graffiti artists have been in the last 40 years.</custom-attribute>
+						<custom-attribute attribute-id="introText" xml:lang="nl">Je kon ze niet missen toen ze net uitkwamen en sindsdien heeft iedereen ze onthouden. De adidas mi Pro Model is een eerbetoon aan een waar sneakericoon - populair bij hiphoppers, DJ's, MC's, breakdance- en graffitikunstenaars in de afgelopen 40 jaar.</custom-attribute>
+						<custom-attribute attribute-id="introText" xml:lang="fr-FR">La Pro Model : une révolution dès ses premiers pas sur les courts, une légende indémodable de la culture urbaine depuis. La chaussure adidas mi Pro Model rend hommage au parcours de cette chaussure de légende qui, au cours des 40 dernières années, a chaussé les artistes de hip-hop, les DJs, les MCs, les breakdancers et les graffeurs</custom-attribute>
+						<custom-attribute attribute-id="introText" xml:lang="de-DE">Unverwechselbar bei seinem Debüt auf dem Spielfeld, auf der Straße seitdem unvergesslich. Der adidas mi Pro Model beschwört die glanzvolle Vergangenheit eines echten Kult-Sneakers herauf, der überall dort zu finden ist, wo auch Hip-Hop-Musiker, DJs, MCs, Breakdancer und Graffitikünstler in den letzten 40 Jahren zu finden waren.</custom-attribute>
+						<custom-attribute attribute-id="introText" xml:lang="it">Inconfondibile sul campo, indimenticabile sulla strada. adidas mi Pro Model evoca il passato glorioso di una vera e propria icona delle sneakers, da 40 anni la preferita di rapper, DJ, breakdancers e street artists.</custom-attribute>
+						<custom-attribute attribute-id="introText" xml:lang="es">Con un estilo inconfundible que marcó su debut en las pistas de tenis y que la ha convertido en todo un icono urbano desde entonces. La zapatilla adidas mi Pro Model rinde homenaje a toda la trayectoria de este emblemático diseño que ha sido un referente obligado de la cultura hip-hop, los DJ y los artistas urbanos a lo largo de los últimos 40 años.</custom-attribute>
+						<custom-attribute attribute-id="introText" xml:lang="zh">从初次登上球场的那一刻就备受瞩目，直到今天仍活跃在街头。 在过去的40年里，无论是嘻哈、DJ、MC、街舞，还是涂鸦艺人的圈子里，阿迪达斯mi Pro Model已经真正成为了时尚界的板鞋经典。</custom-attribute>
+						<custom-attribute attribute-id="introText" xml:lang="ja-JP">コートで鮮烈なデビューを飾って以来、今やストリートでも伝説となったシューズ。 adidasのmi SSは、ヒップホップ、DJ、MC、ブレイクダンス、グラフィティアート界で真のアイコン的スニーカーとして40年も君臨し続けたことに敬意を表して誕生。</custom-attribute>
+						<custom-attribute attribute-id="introText" xml:lang="cs-CZ">Na kurtech o nich nikdo nezapochyboval už při jejich uvedení a od té doby jsou neopomenutelnou součástí ulice. adidas mi Superstar propojují slavnou minulost klasické ikonické tenisky, která pak provázela životy hip-hopery, DJ, MC, tanečníky breakdance a sprejery v posledních 40 letech. </custom-attribute>
+						<custom-attribute attribute-id="introText" xml:lang="pl">Superstaryod czasów swojego debiutu jako ulubione obuwie koszykarzy na dobre zapanowałytakże na ulicach. Modeladidas mi Superstar stanowi ukłon w stronę czasów świetności niekłamanej ikonywśród butów sportowych. Od 40 lat obuwie to towarzyszy wiernie entuzjastomhip-hopu, didżejom, raperom, breakdancerom oraz artystom graffiti.</custom-attribute>
+						<custom-attribute attribute-id="introText" xml:lang="sk-SK">Najprv nezameniteľné na kurte a odvtedy nezabudnuteľné na ulici. Topánky adidas mi Superstar stelesňujú slávnu minulosť pravých kultových tenisiek, ktoré posledných 40 rokov všade sprevádzali hip-hoperov, DJ-ov, MC, breakdancerov a grafiťákov.</custom-attribute>
+			
+						<custom-attribute attribute-id="featureTitle1" xml:lang="en-GB">Your Shells, Your Style</custom-attribute>
+						<custom-attribute attribute-id="featureTitle1" xml:lang="en-US">Your Shells, Your Style</custom-attribute>
+						<custom-attribute attribute-id="featureTitle1" xml:lang="nl">Jouw shells, jouw stijl</custom-attribute>
+						<custom-attribute attribute-id="featureTitle1" xml:lang="fr-FR">Tes Pro Model</custom-attribute>
+						<custom-attribute attribute-id="featureTitle1" xml:lang="de-DE">Deine Shells, dein Stil</custom-attribute>
+						<custom-attribute attribute-id="featureTitle1" xml:lang="it">Lo stile parte dalla punta</custom-attribute>
+						<custom-attribute attribute-id="featureTitle1" xml:lang="es">Tu puntera, tu estilo</custom-attribute>
+						<custom-attribute attribute-id="featureTitle1" xml:lang="zh">您的贝壳头，您的心时尚</custom-attribute>
+						<custom-attribute attribute-id="featureTitle1" xml:lang="ja-JP">Your Shells, Your Style</custom-attribute>
+						<custom-attribute attribute-id="featureTitle1" xml:lang="cs-CZ">Vaše skořápky, váš styl</custom-attribute>
+						<custom-attribute attribute-id="featureTitle1" xml:lang="pl">Twoje „muszle”,Twój styl</custom-attribute>
+						<custom-attribute attribute-id="featureTitle1" xml:lang="sk-SK">Váš dizajn, váš štýl.</custom-attribute>
+			
+						<custom-attribute attribute-id="featureText1" xml:lang="en-GB">
+								
+				&lt;p&gt;Rock it like you mean it with customised kicks that show off your creativity, or call out your team’s colours with millions of possible colour combinations, as well as individual personalisation options.&lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; Choose from an array of custom print designs.&lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText1" xml:lang="en-US">
+								
+				&lt;p&gt;Rock it like you mean it with customized kicks that show off your creativity, or call out your team’s colors with millions of possible color combinations, as well as individual personalization options.&lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; Choose from an array of custom print designs.&lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText1" xml:lang="nl">
+								
+				&lt;p&gt;Knal 'm erin met deze gecustomisede schoenen waarmee je jouw creativiteit, je schoolkleuren of individuele looks kunt laten zien, dankzij een keuze uit miljoenen kleurcombinaties.&lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; • Kies uit een reeks gepersonaliseerde prints.&lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText1" xml:lang="fr-FR">
+								
+				&lt;p&gt;Joue avec des chaussures customisées pour afficher ta créativité ou représenter tes couleurs, avec des millions de combinaisons possibles et des options de personnalisation.&lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; • Choisis parmi une large sélection d'imprimés personnalisés.&lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText1" xml:lang="de-DE">
+								
+				&lt;p&gt;Mache deine Körbe genau so, wie du willst – mit personalisierten Schuhen, die deinen persönlichen Stil oder die Farben deines Vereins zeigen, mit Millionen möglicher Farbkombinationen und individuellen Personalisierungsoptionen.&lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; • Wähle aus einer Reihe von individualisierbaren Aufdruck-Designs.&lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText1" xml:lang="it">
+								
+				&lt;p&gt;Sfoggia il tuo stile ed esprimi la tua creatività, rappresentando la tua squadra del cuore o scegliendo tra le milioni di combinazioni di colori e di opzioni di personalizzazione disponibili.&lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; • Scegli fra una vasta gamma di opzioni di stampa personalizzate.&lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText1" xml:lang="es">
+								
+				&lt;p&gt;Pisa como tú solo sabes con esta zapatilla personalizada y demuestra tu creatividad o presume con los colores de tu equipo gracias a sus múltiples combinaciones de colores, además de muchas otras opciones de personalización.&lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; • Elige entre una amplia gama de estampados personalizados.&lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText1" xml:lang="zh">
+								
+				&lt;p&gt;一双定制的球鞋对于像你这样的篮球迷真是梦寐以求的装备，多达百万种颜色组合及个性定制选项，让你轻松秀出自己的创意或打造出你学校独有的配色。&lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; ·挑选您心仪的定制印花图案。&lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText1" xml:lang="ja-JP">
+								
+				&lt;p&gt;無限に近いカラーバリエーションやカスタマイズオプションから選んでカスタマイズシューズを作ろう。クリエイティブな才能やスクールカラーをアピールして、自分スタイルを楽しもう。&lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; • 豊富なプリントデザインオプションから選択&lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText1" xml:lang="cs-CZ">
+								
+				&lt;p&gt;Ukažte, že to myslíte vážně s botami, které ukážou vaši kreativitu, nebo zvolte týmové barvy s miliony možných barevných kombinací a dalšími personalizovatelnými prvky. &lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; • Vyberte si z řady přizpůsobitelných designů potisku. &lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText1" xml:lang="pl">
+								
+				&lt;p&gt;Dajwyraz swojej osobowości i kreatywności dzięki spersonalizowanym butom. Pokaż,komu kibicujesz – wybierz spośród milionów kombinacji kolorystycznych oraz indywidualnychopcji.&lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; • Do wyborumasz szereg indywidualnych wzorów nadruków.&lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText1" xml:lang="sk-SK">
+								
+				&lt;p&gt;Rozbaľte to naplno s prispôsobenými topánkami, ktorými upozorníte na svoju kreativitu alebo pripomeniete farby svojho tímu. Milióny možných farebných kombinácií s možnosťou individuálneho prispôsobenia.&lt;/p&gt;&#13;
+						
+								
+				&lt;p&gt;&amp;bull; • Vyberte si z množstva vlastných dizajnov potlače.&lt;/p&gt;&#13;
+						
+						
+						
+						
+															
+			
+			</custom-attribute>
+			
+						<custom-attribute attribute-id="featureTitle2" xml:lang="en-GB">Urban Jungle Ready</custom-attribute>
+						<custom-attribute attribute-id="featureTitle2" xml:lang="en-US">Urban Jungle Ready</custom-attribute>
+						<custom-attribute attribute-id="featureTitle2" xml:lang="nl">Klaar voor de stadse jungle</custom-attribute>
+						<custom-attribute attribute-id="featureTitle2" xml:lang="fr-FR">Sois le maître de la jungle urbaine</custom-attribute>
+						<custom-attribute attribute-id="featureTitle2" xml:lang="de-DE">Bereit für den Großstadtdschungel</custom-attribute>
+						<custom-attribute attribute-id="featureTitle2" xml:lang="it">Pronta per la giungla urbana</custom-attribute>
+						<custom-attribute attribute-id="featureTitle2" xml:lang="es">Lista para la jungla de asfalto</custom-attribute>
+						<custom-attribute attribute-id="featureTitle2" xml:lang="zh">都市丛林</custom-attribute>
+						<custom-attribute attribute-id="featureTitle2" xml:lang="ja-JP">Urban Jungle Ready</custom-attribute>
+						<custom-attribute attribute-id="featureTitle2" xml:lang="cs-CZ">Připraveny pro městskou džungli</custom-attribute>
+						<custom-attribute attribute-id="featureTitle2" xml:lang="pl">Zmierzsię z miejską dżunglą</custom-attribute>
+						<custom-attribute attribute-id="featureTitle2" xml:lang="sk-SK">Pripravený do mestskej džungle.</custom-attribute>
+			
+						<custom-attribute attribute-id="featureText2" xml:lang="en-GB">
+									
+					&lt;p&gt;Make your adidas mi Pro Model a stealth sneaker with a camouflage print upper option.&lt;/p&gt;&#13;
+							</custom-attribute>
+						<custom-attribute attribute-id="featureText2" xml:lang="en-US">
+									
+					&lt;p&gt;Make your adidas mi Pro Model a stealth sneaker with a camouflage print upper option.&lt;/p&gt;&#13;
+							</custom-attribute>
+						<custom-attribute attribute-id="featureText2" xml:lang="nl">
+									
+					&lt;p&gt;Zorg ervoor dat jouw mi Pro Model opvalt dankzij de camouflageprint op het bovenwerk.&lt;/p&gt;&#13;
+							</custom-attribute>
+						<custom-attribute attribute-id="featureText2" xml:lang="fr-FR">
+									
+					&lt;p&gt;Transforme ton adidas mi Pro Model en la dotant d'une tige impression camouflage.&lt;/p&gt;&#13;
+							</custom-attribute>
+						<custom-attribute attribute-id="featureText2" xml:lang="de-DE">
+									
+					&lt;p&gt;Tarne das Obermaterial deines adidas mi Pro Model mit einem Camouflage-Druck.&lt;/p&gt;&#13;
+							</custom-attribute>
+						<custom-attribute attribute-id="featureText2" xml:lang="it">
+									
+					&lt;p&gt;Conquista le strade della tua città scegliendo la stampa mimetica per la tomaia.&lt;/p&gt;&#13;
+							</custom-attribute>
+						<custom-attribute attribute-id="featureText2" xml:lang="es">
+									
+					&lt;p&gt;Convierte a tu adidas mi Pro Model en un complemento mimético con un estampado de camuflaje en la parte superior.&lt;/p&gt;&#13;
+							</custom-attribute>
+						<custom-attribute attribute-id="featureText2" xml:lang="zh">
+									
+					&lt;p&gt;用迷彩印花鞋面，打造属于您的adidas mi Pro Model。&lt;/p&gt;&#13;
+							</custom-attribute>
+						<custom-attribute attribute-id="featureText2" xml:lang="ja-JP">
+									
+					&lt;p&gt;アッパーにカモフラージュプリントオプションを選んで都会のジャングルにふさわしいadidas mi SSを完成させよう。&lt;/p&gt;&#13;
+							</custom-attribute>
+						<custom-attribute attribute-id="featureText2" xml:lang="cs-CZ">
+									
+					&lt;p&gt;Udělejte ze svých adidas mi Superstar supertajné tenisky volbou maskovacího potisku svršku. &lt;/p&gt;&#13;
+							</custom-attribute>
+						<custom-attribute attribute-id="featureText2" xml:lang="pl">
+									
+					&lt;p&gt;Możesztakże zdecydować się na opcję kamuflażowego nadruku na cholewce.&lt;/p&gt;&#13;
+							</custom-attribute>
+						<custom-attribute attribute-id="featureText2" xml:lang="sk-SK">
+									
+					&lt;p&gt;Zakrádajte sa mestom v topánkach adidas mi Superstar s maskáčovým zvrškom.&lt;/p&gt;&#13;
+							</custom-attribute>
+						
+						<custom-attribute attribute-id="featureTitle3" xml:lang="en-GB">Urban Jungle Ready</custom-attribute>
+						<custom-attribute attribute-id="featureTitle3" xml:lang="en-US">Urban Jungle Ready</custom-attribute>
+						<custom-attribute attribute-id="featureTitle3" xml:lang="nl">Klaar voor de stadse jungle</custom-attribute>
+						<custom-attribute attribute-id="featureTitle3" xml:lang="fr-FR">Sois le maître de la jungle urbaine</custom-attribute>
+						<custom-attribute attribute-id="featureTitle3" xml:lang="de-DE">Bereit für den Großstadtdschungel</custom-attribute>
+						<custom-attribute attribute-id="featureTitle3" xml:lang="it">Pronta per la giungla urbana</custom-attribute>
+						<custom-attribute attribute-id="featureTitle3" xml:lang="es">Lista para la jungla de asfalto</custom-attribute>
+						<custom-attribute attribute-id="featureTitle3" xml:lang="zh">都市丛林</custom-attribute>
+						<custom-attribute attribute-id="featureTitle3" xml:lang="ja-JP">Urban Jungle Ready</custom-attribute>
+						<custom-attribute attribute-id="featureTitle3" xml:lang="cs-CZ">Připraveny pro městskou džungli</custom-attribute>
+						<custom-attribute attribute-id="featureTitle3" xml:lang="pl">Zmierzsię z miejską dżunglą</custom-attribute>
+						<custom-attribute attribute-id="featureTitle3" xml:lang="sk-SK">Pripravený do mestskej džungle.</custom-attribute>
+			
+						<custom-attribute attribute-id="featureText3" xml:lang="en-GB">
+									
+					&lt;p&gt;Make your adidas mi Pro Model a stealth sneaker with a camouflage print upper option.&lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText3" xml:lang="en-US">
+									
+					&lt;p&gt;Make your adidas mi Pro Model a stealth sneaker with a camouflage print upper option.&lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText3" xml:lang="nl">
+									
+					&lt;p&gt;Zorg ervoor dat jouw mi Pro Model opvalt dankzij de camouflageprint op het bovenwerk.&lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText3" xml:lang="fr-FR">
+									
+					&lt;p&gt;Transforme ton adidas mi Pro Model en la dotant d'une tige impression camouflage.&lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText3" xml:lang="de-DE">
+									
+					&lt;p&gt;Tarne das Obermaterial deines adidas mi Pro Model mit einem Camouflage-Druck.&lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText3" xml:lang="it">
+									
+					&lt;p&gt;Conquista le strade della tua città scegliendo la stampa mimetica per la tomaia.&lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText3" xml:lang="es">
+									
+					&lt;p&gt;Convierte a tu adidas mi Pro Model en un complemento mimético con un estampado de camuflaje en la parte superior.&lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText3" xml:lang="zh">
+									
+					&lt;p&gt;用迷彩印花鞋面，打造属于您的adidas mi Pro Model。&lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText3" xml:lang="ja-JP">
+									
+					&lt;p&gt;アッパーにカモフラージュプリントオプションを選んで都会のジャングルにふさわしいadidas mi SSを完成させよう。&lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText3" xml:lang="cs-CZ">
+									
+					&lt;p&gt;Udělejte ze svých adidas mi Superstar supertajné tenisky volbou maskovacího potisku svršku. &lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText3" xml:lang="pl">
+									
+					&lt;p&gt;Możesztakże zdecydować się na opcję kamuflażowego nadruku na cholewce.&lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						<custom-attribute attribute-id="featureText3" xml:lang="sk-SK">
+									
+					&lt;p&gt;Zakrádajte sa mestom v topánkach adidas mi Superstar s maskáčovým zvrškom.&lt;/p&gt;&#13;
+						
+			</custom-attribute>
+						
+
+            <custom-attribute attribute-id="colorSwatches">
+                <value>http://shop.miteam.adidas.com/static/images/colors/st_canvas_black.png </value>
+<value>http://shop.miteam.adidas.com/static/images/colors/st_canvas_cream_white.png </value>
+<value>http://shop.miteam.adidas.com/static/images/colors/st_canvas_dark_grey.png </value>
+<value>http://shop.miteam.adidas.com/static/images/colors/st_canvas_green.png </value>
+<value>http://shop.miteam.adidas.com/static/images/colors/st_canvas_light_blue.png </value>
+<value>http://shop.miteam.adidas.com/static/images/colors/st_canvas_light_pink.png </value>
+<value>http://shop.miteam.adidas.com/static/images/colors/st_canvas_stone_green.png </value>
+<value>http://shop.miteam.adidas.com/static/images/colors/White_new.png </value>
+<value>http://shop.miteam.adidas.com/static/images/colors/White_new.png </value>            </custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="de">Farben</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="x-default">Colours</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="en-US">Colors</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="es">Colores</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="fr-FR">Couleurs</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="it">Colori</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="ja-JP">カラー</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="nl">Kleuren</custom-attribute>
+            <custom-attribute attribute-id="colorTitle" xml:lang="zh">颜色</custom-attribute>
+			<custom-attribute attribute-id="colorTitle" xml:lang="pl">Kolory</custom-attribute>
+			<custom-attribute attribute-id="colorTitle" xml:lang="sk-SK">Farby</custom-attribute>
+			<custom-attribute attribute-id="colorTitle" xml:lang="cs-CZ">Barvy</custom-attribute>
+			<custom-attribute attribute-id="colorTitle" xml:lang="ru"></custom-attribute>
+			
+            <custom-attribute attribute-id="designGalleryImage">04_PDP/miTeam_Generic_Design_Gallery_Apparel_120529.png</custom-attribute>
+            
+			<custom-attribute attribute-id="designGalleryImageAltText" xml:lang="de">Design-Galerie</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="x-default">Design Starter</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="en-US">Design Starter</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="es">Galería de diseños</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="fr-FR">Galerie de designs</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="it">Design Gallery</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="ja-JP">デザインギャラリー</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="nl">Ontwerpgalerij</custom-attribute>
+            <custom-attribute attribute-id="designGalleryImageAltText" xml:lang="zh">设计廊</custom-attribute>
+			<custom-attribute attribute-id="designGalleryImageAltText" xml:lang="pl">Zacznij personalizownie</custom-attribute>
+			<custom-attribute attribute-id="designGalleryImageAltText" xml:lang="sk-SK">Začni personalizáciu</custom-attribute>
+			<custom-attribute attribute-id="designGalleryImageAltText" xml:lang="cs-CZ">Začít personalizaci</custom-attribute>
+			<custom-attribute attribute-id="designGalleryImageAltText" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="de">Lass dich inspirieren</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="x-default">Get inspired</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="en-US">Get inspired</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="es">¡Inspírate!</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="fr-FR">Inspire-toi</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="it">Trova il prodotto giusto per te</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="ja-JP">デザインのヒント</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="nl">Laat je inspireren</custom-attribute>
+            <custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="zh">获取灵感！</custom-attribute>
+			<custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="pl">Inspiruj się</custom-attribute>
+			<custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="sk-SK">Inšpiruj sa</custom-attribute>
+			<custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="cs-CZ">Inspiruj se</custom-attribute>
+			<custom-attribute attribute-id="designGalleryLinkTitle" xml:lang="ru"></custom-attribute>
+           
+		   
+		    <custom-attribute attribute-id="featureImage1">04_PDP/originals/mi Stan Smith/image_feature1.png</custom-attribute>
+            <custom-attribute attribute-id="featureImage2">04_PDP/originals/mi Stan Smith/image_feature2.png</custom-attribute>
+            <custom-attribute attribute-id="featureImage3">04_PDP/originals/mi Stan Smith/image_feature3.png</custom-attribute>
+           
+		    <custom-attribute attribute-id="featureImageAlign1">right</custom-attribute>
+            <custom-attribute attribute-id="featureImageAlign2">left</custom-attribute>
+            <custom-attribute attribute-id="featureImageAlign3">right</custom-attribute>
+           
+			
+
+			
+            <custom-attribute attribute-id="materialTitle" xml:lang="de">Materialien</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="x-default">Materials</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="en-US">Materials</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="es">Materiales</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="fr-FR">Matières</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="it">Materiali</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="ja-JP">素材</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="nl">Materiaal</custom-attribute>
+            <custom-attribute attribute-id="materialTitle" xml:lang="zh">物料</custom-attribute>
+			<custom-attribute attribute-id="materialTitle" xml:lang="pl">Materiały</custom-attribute>
+			<custom-attribute attribute-id="materialTitle" xml:lang="sk-SK">Materiály</custom-attribute>
+			<custom-attribute attribute-id="materialTitle" xml:lang="cs-CZ">Materiály</custom-attribute>
+			<custom-attribute attribute-id="materialTitle" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="de">45 Tage</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="x-default">45 days</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="en-US">60 days</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="es">45 días</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="fr-FR">45 jours</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="it">45 giorni</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="ja-JP">4～6週間</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="nl">45 dagen</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="zh">4-6周</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="pl">45 dni</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="sk">45 dní</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="cs-CZ">45 dnů</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTime" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="de">Lieferzeiten</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="x-default">Delivery Time</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="en-US">Delivery Time</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="es">Plazos de entrega</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="fr-FR">Délai de livraison</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="it">Tempi di consegna</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="ja-JP">お届け予定</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="nl">Levertijd</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="zh">发货时间</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="pl">Termin dostawy</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="sk-SK">Dodacia lehota</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="cs-CZ">Dodací lhůta</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsDeliveryTimeTitle" xml:lang="ru"></custom-attribute>
+            
+			<custom-attribute attribute-id="orderDetailsMinimumQty">1</custom-attribute>
+			
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="de">Mindestbestellmenge</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="x-default">Minimum Order Quantity</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="en-US">Minimum Order Quantity</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="es">Cantidad mínima de pedido</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="fr-FR">Quantité minimum de commande</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="it">Quantità ordine minimo</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="ja-JP">最低注文数量</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="nl">Minimum bestelaantal</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="zh">最低起订量</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="pl">Minimalne zamówienie</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="sk-SK">Minimálne odberové množstvo</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="cs-CZ">Minimální objednávací množství</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsMinimumQtyTitle" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="de">Bestellinformationen</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="x-default">Order Details</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="en-US">Order Details</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="es">Datos del pedido</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="fr-FR">Détails de la commande</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="it">Dettagli ordine</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="ja-JP">ご注文内容</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="nl">Bestelgegevens</custom-attribute>
+            <custom-attribute attribute-id="orderDetailsTitle" xml:lang="zh">订单详情</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsTitle" xml:lang="pl">Szczegóły zamówienia</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsTitle" xml:lang="sk-SK">Detaily objednávky</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsTitle" xml:lang="cs-CZ">Detaily objednávky</custom-attribute>
+			<custom-attribute attribute-id="orderDetailsTitle" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="sizeDetails" xml:lang="x-default">{&#13;
+M:{"FR":"36-49 1/3","JP":"220.0-320.0","UK":"3.5-13.5","US":"4.0-14.0"},"W":{"FR":"36-49 1/3","JP":"220.0-320.0","UK":"3.5-13.5","US":"5.0-15.0"}&#13;
+}</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="de">Größen</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="x-default">Sizes</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="en-US">Sizes</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="es">Tallas</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="fr-FR">Tailles</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="it">Misure</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="ja-JP">サイズ</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="nl">Maten</custom-attribute>
+            <custom-attribute attribute-id="sizeTitle" xml:lang="zh">尺寸</custom-attribute>
+			<custom-attribute attribute-id="sizeTitle" xml:lang="pl">Rozmiary</custom-attribute>
+			<custom-attribute attribute-id="sizeTitle" xml:lang="sk-SK">Veľkosti</custom-attribute>
+			<custom-attribute attribute-id="sizeTitle" xml:lang="cs-CZ">Velikosti</custom-attribute>
+			<custom-attribute attribute-id="sizeTitle" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="de">Hier findest du nur einige von ganz vielen Möglichkeiten, um deine Produkte mit mi adidas zu personalisieren.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="x-default">Below are just some of the options available to truly make your custom mi adidas product your own.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="en-US">Below are just some of the options available to truly make your custom mi adidas product your own.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="es">A continuación te mostramos algunas de las opciones disponibles para que crees un producto mi adidas verdaderamente único.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="fr-FR">Voici quelques-unes des options disponibles pour créer ton produit mi adidas personnalisé et le rendre unique.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="it">Scopri in basso alcune delle opzioni disponibili per rendere davvero tuoi i prodotti personalizzati mi adidas.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="ja-JP">以下のオプションでカスタマイズして、自分だけのmi adidas製品をデザインしよう。</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="nl">Hieronder zie je een paar van de vele opties waaruit je kunt kiezen om jouw mi adidas artikelen helemaal uniek te maken.</custom-attribute>
+            <custom-attribute attribute-id="specsText" xml:lang="zh">以下选项可让您真正随意定制属于自己的 mi adidas 产品。</custom-attribute>
+			<custom-attribute attribute-id="specsText" xml:lang="pl">Poniżej kilka z wielu opcji, które pomogą Ci personalizować produkt adidas dokładnie tak, jak chcesz.</custom-attribute>
+			<custom-attribute attribute-id="specsText" xml:lang="sk-SK">Nižšie môžete vidieť niektoré z mnohých možností, ktoré vám umožnia prispôsobiť si váš mi adidas produkt sk-SKutočne na svoj obraz.</custom-attribute>
+			<custom-attribute attribute-id="specsText" xml:lang="cs-CZ">Níže můžete vidět několik z mnoha možností, díky kterým si můžete svůj mi adidas produkt přizpůsobit přesně podle sebe.</custom-attribute>
+			<custom-attribute attribute-id="specsText" xml:lang="ru"></custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="de">Kreiere deinen Style</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="x-default">Build Your Style</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="en-US">Build Your Style</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="es">Crea tu estilo</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="fr-FR">Crée ton style</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="it">Crea il tuo stile</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="ja-JP">Build Your Style</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="nl">Je eigen stijl</custom-attribute>
+            <custom-attribute attribute-id="specsTitle" xml:lang="zh">打造个性风格</custom-attribute>
+			<custom-attribute attribute-id="specsTitle" xml:lang="pl">Zbuduj swój styl</custom-attribute>
+			<custom-attribute attribute-id="specsTitle" xml:lang="sk-SK">Zostavte si svoj ​​štýl</custom-attribute>
+			<custom-attribute attribute-id="specsTitle" xml:lang="cs-CZ">Sestavte si svůj styl</custom-attribute>
+			<custom-attribute attribute-id="specsTitle" xml:lang="ru"></custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="PDPCONTENT"/>
+        </folder-links>
+    </content>
+
+
+</library>

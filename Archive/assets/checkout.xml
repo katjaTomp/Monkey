@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+  <content content-id="cvn-code">
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <page-attributes/>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="cs-CZ">CVV je 3ciferný kód, který musíte uvést. Kód zvyšuje bezpečnost vaší platby.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="da-DK">Sikkerhedskoden er den trecifrede kode, som vi beder dig indtaste. Den giver ekstra sikkerhed i forbindelse med din betaling.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="de-AT">Der CVV-Code ist ein dreistelliger Code, den wir abfragen. Damit sorgen wir für mehr Sicherheit bei deiner Bezahlung.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="de-DE">Der CVV-Code ist ein dreistelliger Code, den wir abfragen. Damit sorgen wir für mehr Sicherheit bei deiner Bezahlung.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="x-default">The CVV code is a 3 digit code that we ask you to enter. It adds an extra level of security to your payment.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="es-ES">El código CVV es un número de 3 dígitos que tienes que introducir para aumentar el nivel de seguridad de tu pago.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="fr-BE">Le code CVV correspond aux 3 derniers chiffres présents à l'arrière de la carte. Il permet d'ajouter un niveau de sécurité supplémentaire à ton paiement.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="fr-FR">Le code CVV correspond aux 3 derniers chiffres présents à l'arrière de la carte. Il permet d'ajouter un niveau de sécurité supplémentaire à ton paiement.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="it-IT">Il CVV è un codice di 3 cifre che ti chiediamo di inserire   per rendere il pagamento ancora più sicuro.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="nl-NL">De CVC-code is een 3-cijferige veiligheidscode die we je vragen hier in te vullen. Het zorgt voor een veiligere betaling.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="pl-PL">Prosimy wprowadzić kod CVV, składający się z 3 cyfr. Jest to dodatkowe zabezpieczenie i weryfikacja Twojej płatności.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="pt-BR">O código CVV é um código de 3 dígitos na parte de trás do seu cartão.  Ele dá mais segurança ao seu pagamento.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="ru-RU">CVV-код — это трехзначное число, которое необходимо ввести. Он помогает обезопасить процедуру оплаты заказа.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="sk-SK">Kód CVV je trojciferný kód, ktorý musíte uviesť.  Tento kód zvyšuje bezpečnosť vašej platby.</custom-attribute>
+      <custom-attribute attribute-id="body" xml:lang="sv-SE">CVV koden består av 3 siffror och du hittar den på baksidan av ditt kort. Den bidrar till att göra din betalning säkrare.</custom-attribute>
+    </custom-attributes>
+  </content>
+</library>

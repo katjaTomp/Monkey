@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+		  <content content-id="error-404">
+		    <online-flag>true</online-flag>
+		    <searchable-flag>false</searchable-flag>
+		    <page-attributes/>
+		    <custom-attributes><custom-attribute attribute-id="body" xml:lang="cs-CZ">
+&lt;p&gt;Sorry, we couldn't find that page you were looking for. Maybe it's moved, or maybe the URL is incorrect.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Things to try: &lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Check that the URL you entered is correct.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;Return to our &lt;a href="/" title="Home page"&gt;home page&lt;/a&gt; and use the navigation menu to find what you need.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;&lt;a href="https://adidas-group-gb.custhelp.com/app/adidas_GB_en_ask" title="Contact us" rel="nofollow"&gt;Contact us&lt;/a&gt; and we'll see if we can point you in the right direction&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;</custom-attribute><custom-attribute attribute-id="body" xml:lang="da-DK">
+&lt;p&gt;Sorry, we couldn't find that page you were looking for. Maybe it's moved, or maybe the URL is incorrect.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Things to try: &lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Check that the URL you entered is correct.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;Return to our &lt;a href="/" title="Home page"&gt;home page&lt;/a&gt; and use the navigation menu to find what you need.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;&lt;a href="$httpsUrlhttps://adidas-group-gb.custhelp.com/app/adidas_DK_en_ask" title="Contact us"&gt;Contact us&lt;/a&gt; and we'll see if we can point you in the right direction&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;</custom-attribute><custom-attribute attribute-id="body" xml:lang="nl-NL">
+&lt;div class="disabledmessage"&gt;De Javascript-functionaliteit van je browser is uitgeschakeld. Schakel deze functionaliteit in zodat je alle mogelijkheden van deze site optimaal kunt benutten.&lt;/div&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="en-IE">
+&lt;p&gt;Sorry, we couldn't find that page you were looking for. Maybe it's moved, or maybe the URL is incorrect.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Things to try: &lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Check that the URL you entered is correct.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;Return to our &lt;a href="/" title="Home page"&gt;home page&lt;/a&gt; and use the navigation menu to find what you need.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;&lt;a href="https://adidas-group-gb.custhelp.com/app/adidas_IE_en_ask" title="Contact us" rel="nofollow"&gt;Contact us&lt;/a&gt; and we'll see if we can point you in the right direction&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;</custom-attribute><custom-attribute attribute-id="body" xml:lang="en-GB">
+&lt;p&gt;Sorry, we couldn't find that page you were looking for. Maybe it's moved, or maybe the URL is incorrect.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Things to try: &lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Check that the URL you entered is correct.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;Return to our &lt;a href="/" title="Home page"&gt;home page&lt;/a&gt; and use the navigation menu to find what you need.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;&lt;a href="https://adidas-group-gb.custhelp.com/app/adidas_GB_en_ask" title="Contact us" rel="nofollow"&gt;Contact us&lt;/a&gt; and we'll see if we can point you in the right direction&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;</custom-attribute><custom-attribute attribute-id="body" xml:lang="fi-FI">
+&lt;p&gt;Sorry, we couldn't find that page you were looking for. Maybe it's moved, or maybe the URL is incorrect.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Things to try: &lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Check that the URL you entered is correct.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;Return to our &lt;a href="/" title="Home page"&gt;home page&lt;/a&gt; and use the navigation menu to find what you need.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;&lt;a href="$httpsUrlhttps://adidas-group-gb.custhelp.com/app/adidas_FI_en_ask" title="Contact us"&gt;Contact us&lt;/a&gt; and we'll see if we can point you in the right direction&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;</custom-attribute><custom-attribute attribute-id="body" xml:lang="fr-BE">
+&lt;p&gt;Sorry, we couldn't find that page you were looking for. Maybe it's moved, or maybe the URL is incorrect.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Things to try: &lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Check that the URL you entered is correct.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;Return to our &lt;a href="/" title="Home page"&gt;home page&lt;/a&gt; and use the navigation menu to find what you need.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;&lt;a href="https://www.adidas.be/on/demandware.store/Sites-adidas-BE-Site/fr_BE/CustomerService-ContactUs" title="Contact us"&gt;Contact us&lt;/a&gt; and we'll see if we can point you in the right direction&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;</custom-attribute><custom-attribute attribute-id="body" xml:lang="fr-FR">
+&lt;div class="disabledmessage"&gt;Le Javascript de votre navigateur est désactivé. Veuillez l'activer pour profiter au maximum de ce site.&lt;/div&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="de-DE">
+&lt;p&gt;Sorry, we couldn't find that page you were looking for. Maybe it's moved, or maybe the URL is incorrect.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Things to try: &lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Check that the URL you entered is correct.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;Return to our &lt;a href="/" title="Home page"&gt;home page&lt;/a&gt; and use the navigation menu to find what you need.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;&lt;a href="https://adidas-group-gb.custhelp.com/app/adidas_GB_en_ask" title="Contact us" rel="nofollow"&gt;Contact us&lt;/a&gt; and we'll see if we can point you in the right direction&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;</custom-attribute><custom-attribute attribute-id="body" xml:lang="de-AT">
+&lt;div class="disabledmessage"&gt;Die Javascript-Funktion deines Browsers ist ausgeschaltet. Bitte stelle sie wieder an, damit du alle Möglichkeiten dieser Seite nutzen kannst.&lt;/div&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="it-IT">
+&lt;div class="disabledmessage"&gt;La funzionalità Javascript del browser non è attiva. Attivarla per poter apprezzare al meglio tutte le funzionalità del sito.&lt;/div&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="pl-PL">
+&lt;p&gt;Sorry, we couldn't find that page you were looking for. Maybe it's moved, or maybe the URL is incorrect.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Things to try: &lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Check that the URL you entered is correct.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;Return to our &lt;a href="/" title="Home page"&gt;home page&lt;/a&gt; and use the navigation menu to find what you need.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;&lt;a href="https://adidas-group-gb.custhelp.com/app/adidas_GB_en_ask" title="Contact us" rel="nofollow"&gt;Contact us&lt;/a&gt; and we'll see if we can point you in the right direction&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;</custom-attribute><custom-attribute attribute-id="body" xml:lang="sk-SK">
+&lt;p&gt;Sorry, we couldn't find that page you were looking for. Maybe it's moved, or maybe the URL is incorrect.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Things to try: &lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Check that the URL you entered is correct.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;Return to our &lt;a href="/" title="Home page"&gt;home page&lt;/a&gt; and use the navigation menu to find what you need.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;&lt;a href="https://adidas-group-gb.custhelp.com/app/adidas_GB_en_ask" title="Contact us" rel="nofollow"&gt;Contact us&lt;/a&gt; and we'll see if we can point you in the right direction&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;</custom-attribute><custom-attribute attribute-id="body" xml:lang="es-ES">
+&lt;div class="disabledmessage"&gt;El Javascript de tu explorador está desactivado. Actívalo para poder disfrutar de todas las funcionalidades de esta página.&lt;/div&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="sv-SE">
+&lt;p&gt;Sorry, we couldn't find that page you were looking for. Maybe it's moved, or maybe the URL is incorrect.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Things to try: &lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Check that the URL you entered is correct.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;Return to our &lt;a href="/" title="Home page"&gt;home page&lt;/a&gt; and use the navigation menu to find what you need.&lt;/li&gt;&amp;#13;
+    &lt;li&gt;&lt;a href="$httpsUrlhttps://adidas-group-gb.custhelp.com/app/adidas_SE_en_ask&amp;#9;" title="Contact us"&gt;Contact us&lt;/a&gt; and we'll see if we can point you in the right direction&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;</custom-attribute>
+    </custom-attributes>
+  </content>
+</library>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+  <content content-id="help-topics-delivery_terms">
+    <online-flag>true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <page-attributes/>
+    <custom-attributes>
+      <custom-attribute attribute-id="body" xml:lang="x-default">$include('Page-Include','cid','help-topics-terms_and_conditions')$</custom-attribute>
+    </custom-attributes>
+  </content>
+</library>

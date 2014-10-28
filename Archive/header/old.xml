@@ -1,0 +1,743 @@
+	<content content-id="navigation-gender-women">
+		<?php foreach ($locales as $key => $value ): ?>	
+		<display-name xml:lang="<?php echo $key; ?>"><?php cell($value . '3'); ?></display-name>	
+		<?php endforeach; ?>
+		<online-flag>true</online-flag>
+		<searchable-flag>false</searchable-flag>
+		<page-attributes/>
+		<custom-attributes>
+			<?php foreach ($locales as $key => $value ): $right = $value; $right++; ?>	
+			<custom-attribute attribute-id="body" xml:lang="<?php echo $key; ?>">
+				&lt;div class="flyout-content-in"&gt;&#13;
+				&lt;div class="main-line"&gt;&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '5'); ?>"&gt;<?php cell($value . '5'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=6;$i<9;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;li class="horizontal-separator"&gt;&lt;/li&gt;&#13;
+				<?php for($i=10;$i<12;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;li class="horizontal-separator"&gt;&lt;/li&gt;&#13;
+				<?php for($i=13;$i<15;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '18'); ?>"&gt;<?php cell($value . '18'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=19;$i<28;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '31'); ?>"&gt;<?php cell($value . '31'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=32;$i<41;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '44'); ?>"&gt;<?php cell($value . '44'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=45;$i<51;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '54'); ?>"&gt;<?php cell($value . '54'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=55;$i<61;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;/ul&gt;&#13;
+				&#13;
+				&lt;/div&gt;&#13;
+				&lt;/div&gt;&#13;
+				&lt;div class="bottom-line"&gt;&#13;
+				<?php $rows = array(16, 29, 42, 52, 62); foreach($rows as $row): ?>
+				&lt;div class="col-5"&gt;&lt;a href="<?php cell($right . $row); ?>"&gt;&lt;strong&gt;<?php cell($value . $row); ?>&lt;/strong&gt;&lt;/a&gt;&lt;/div&gt;&#13;
+				<?php endforeach; ?>				
+				&lt;/div&gt;&#13;
+				&lt;/div&gt;
+				&lt;script type="text/javascript"&gt;&#13;
+				/* if (app &amp;&amp; app.headerRedesign &amp;&amp; typeof app.headerRedesign.init === 'function') {&#13;
+				app.headerRedesign.init = function () {&#13;
+				var headerEl = jQuery('#header.header-redesign'),&#13;
+				accountFlyoutBlock = false;&#13;
+				&#13;
+				app.headerRedesign.taskManager = new app.util.taskManager();&#13;
+				&#13;
+				if (headerEl.length) {&#13;
+				&#13;
+				var headerOffset = headerEl.offset().top,&#13;
+				topFixedClass = 'top-fixed',&#13;
+				profileDecorator = function () {&#13;
+				var signForm = app.form.getById('signupandsaveform');&#13;
+				if (signForm) {&#13;
+				for (var i = 0; i&lt; signForm.children.length; ++i){&#13;
+				field = signForm.children[i];&#13;
+				field.resetView();&#13;
+				}&#13;
+				}&#13;
+				jQuery('.header-redesign .account.flyout input[type=text], .account.flyout select').on('focus', function () {&#13;
+				accountFlyoutBlock = true;&#13;
+				});&#13;
+				forms.initSubstitutes();&#13;
+				profileDecorator = null;&#13;
+				};&#13;
+				&#13;
+				function makeHeaderSticky () {&#13;
+				var proxy = jQuery('&lt;div&gt;').addClass('header-redesign-proxy').css('height', 48).html('&amp;nbsp;');&#13;
+				headerEl.addClass(topFixedClass);&#13;
+				headerEl.after(proxy);&#13;
+				}&#13;
+				&#13;
+				if (!PageContext.isTypeBCampaign) {&#13;
+				if (headerOffset) {&#13;
+				jQuery(window).scroll(function (e) {&#13;
+				var scrollOffset = 'scrollY' in  window ? window.pageYOffset : document.documentElement.scrollTop;&#13;
+				&#13;
+				if (scrollOffset - headerOffset &gt;= 0) {&#13;
+				if (!headerEl.hasClass(topFixedClass)) {&#13;
+				makeHeaderSticky();&#13;
+				}&#13;
+				} else {&#13;
+				if (headerEl.hasClass(topFixedClass)) {&#13;
+				headerEl.removeClass(topFixedClass);&#13;
+				if (headerEl.next().is('.header-redesign-proxy')) {&#13;
+				headerEl.next().remove();&#13;
+				}&#13;
+				}&#13;
+				}&#13;
+				});&#13;
+				} else {&#13;
+				makeHeaderSticky();&#13;
+				}&#13;
+				}&#13;
+				&#13;
+				app.headerRedesign.initSearch(headerEl);&#13;
+				&#13;
+				jQuery(document)&#13;
+				.on('click', 'body', function (e) {&#13;
+				if (accountFlyoutBlock &#13;
+				&amp;&amp; jQuery('.header-redesign .account.flyout .flyout-content').is(':visible') &#13;
+				&amp;&amp; !jQuery(e.target).closest('.account.flyout').length &#13;
+				&amp;&amp; !jQuery(e.target).is('.account.flyout')) {&#13;
+				app.headerRedesign.executeHook();&#13;
+				}&#13;
+				})&#13;
+				.on('mouseenter', '#header.header-redesign .flyout', function () {&#13;
+				var flyout = jQuery(this);&#13;
+				&#13;
+				if (app.uiBlocker.isBlocked) return;&#13;
+				&#13;
+				app.headerRedesign.taskManager.delay(&#13;
+				app.headerRedesign.delay, &#13;
+				{&#13;
+				action : 1,&#13;
+				id : flyout.parent().attr('class') + flyout.index(),&#13;
+				task : function () {&#13;
+				if (!(flyout.hasClass('account') &amp;&amp; flyout.hasClass('hover'))) {&#13;
+				app.headerRedesign.showFlyout(flyout[0]);&#13;
+				if (typeof profileDecorator === 'function' &amp;&amp; flyout.is('.account')) {&#13;
+				profileDecorator();&#13;
+				}&#13;
+				}&#13;
+				}&#13;
+				}&#13;
+				);&#13;
+				})&#13;
+				.on('mouseleave', '#header.header-redesign .flyout', function (e) {&#13;
+				var flyout = jQuery(this);&#13;
+				if (app.uiBlocker.isBlocked) return;&#13;
+				&#13;
+				if (accountFlyoutBlock &amp;&amp; flyout.hasClass('account')) {&#13;
+				app.headerRedesign.flyoutHook = function () {&#13;
+				accountFlyoutBlock = false;&#13;
+				flyout.find('.flyout-content').hide();&#13;
+				flyout.removeClass('hover');&#13;
+				};&#13;
+				return;&#13;
+				}&#13;
+				app.headerRedesign.taskManager.delay(&#13;
+				app.headerRedesign.delay, &#13;
+				{&#13;
+				action : -1,&#13;
+				id : flyout.parent().attr('class') + flyout.index(),&#13;
+				task : function () {&#13;
+				app.headerRedesign.hideFlyout(flyout[0]);&#13;
+				}&#13;
+				}&#13;
+				);&#13;
+				})&#13;
+				.on('click', '#header.header-redesign .flyout .nav-button', function (e) {&#13;
+				if (app.uiBlocker.isBlocked) return;&#13;
+				&#13;
+				if (!jQuery(e.target).is('a.top-cat-link')) {&#13;
+				var link = jQuery(this).find('a.top-cat-link'),&#13;
+				href = link.attr('href');&#13;
+				&#13;
+				if (href &amp;&amp; href.indexOf('#') !== 0) {&#13;
+				link.trigger('click');&#13;
+				window.location = link.attr('href');&#13;
+				}&#13;
+				}&#13;
+				});&#13;
+				}&#13;
+				}&#13;
+				}&#13;
+				&#13;
+				app.minicart.updateBasketCount = function (updateHtml, basketCount) {&#13;
+				var countEl = jQuery("#minicart .minicarttotal strong");&#13;
+				&#13;
+				if (countEl.length) {&#13;
+				var currentHtml = countEl.html(),&#13;
+				count = basketCount ? parseInt(basketCount) : 0;&#13;
+				&#13;
+				if (typeof basketCount === 'undefined') {&#13;
+				var foundCurrentCount = currentHtml.match(/[0-9]+/g);&#13;
+				&#13;
+				foundCurrentCount = foundCurrentCount == null ? 0 : foundCurrentCount[0]; &#13;
+				count = parseInt(foundCurrentCount) + 1;&#13;
+				}&#13;
+				&#13;
+				if (updateHtml) {&#13;
+				countEl.html(currentHtml ? currentHtml.replace(/[0-9]+/g, count) : count || '');&#13;
+				if (count &gt; 0) {&#13;
+				jQuery("#minicart .minicarttotal, #minicart .minicart-button").addClass("minicart-notempty");&#13;
+				}&#13;
+				}&#13;
+				&#13;
+				if (!count) {&#13;
+				var placeholder = jQuery('#header.header-redesign .utility .minicart.flyout');&#13;
+				&#13;
+				if (placeholder.length) {&#13;
+				var flCont = placeholder.find('.flyout-content');&#13;
+				&#13;
+				if (!flCont.length) {&#13;
+				flCont.remove();&#13;
+				}&#13;
+				&#13;
+				placeholder.append(app.util.tmpl.invokeTemplate('emptyCartFlyout').html());&#13;
+				}&#13;
+				} else {&#13;
+				var emptyMsg = jQuery('.header-redesign .minicart.flyout .flyout-content.empty-cart-msg');&#13;
+				&#13;
+				if (emptyMsg.length) {&#13;
+				emptyMsg.remove();&#13;
+				}&#13;
+				}&#13;
+				}&#13;
+				};&#13;
+				jQuery(function () {&#13;
+				var link = jQuery('.header-redesign .account.flyout a.username');&#13;
+				link.html('Welcome');&#13;
+				});*/&#13;
+				&lt;/script&gt;&#13;
+				&lt;style&gt;&#13;
+				/*.home-page-slot-hero { margin: -48px 0 30px;}&#13;
+				.header-redesign-proxy{height:48px;position:relative;z-index: 999;width:100%;}*/&#13;
+				&lt;/style&gt;
+			</custom-attribute>
+			<?php endforeach; ?>
+
+			<?php foreach ($locales as $key => $value ): ?>	
+			<custom-attribute attribute-id="directLink" xml:lang="<?php echo $key; ?>"><?php cell($value . '66'); ?></custom-attribute>
+			<?php endforeach; ?>
+		</custom-attributes>
+		<folder-links>
+			<classification-link folder-id="navigation-gender">
+				<position>0.0</position>
+			</classification-link>
+		</folder-links>
+		<sitemap-included-flag>false</sitemap-included-flag>
+	</content>	
+
+	<?php $objPHPExcel->setActiveSheetIndex(2); ?>
+	<content content-id="navigation-gender-kids">
+		<?php foreach ($locales as $key => $value ): ?>	
+		<display-name xml:lang="<?php echo $key; ?>"><?php cell($value . '3'); ?></display-name>	
+		<?php endforeach; ?>
+		<online-flag>true</online-flag>
+		<searchable-flag>false</searchable-flag>
+		<page-attributes/>
+		<custom-attributes>
+			<?php foreach ($locales as $key => $value ): $right = $value; $right++; ?>		
+			<custom-attribute attribute-id="body" xml:lang="<?php echo $key; ?>">
+				&lt;div class="flyout-content-in"&gt;&#13;
+				&lt;div class="main-line"&gt;&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '5'); ?>"&gt;<?php cell($value . '5'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=6;$i<9;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&#13;
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '12'); ?>"&gt;<?php cell($value . '12'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=13;$i<15;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;li class="horizontal-separator"&gt;&lt;/li&gt;&#13;
+				<?php for($i=16;$i<18;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;li class="horizontal-separator"&gt;&lt;/li&gt;&#13;
+				<?php for($i=19;$i<20;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '22'); ?>"&gt;<?php cell($value . '22'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=23;$i<25;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;li class="horizontal-separator"&gt;&lt;/li&gt;&#13;
+				<?php for($i=26;$i<28;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&lt;li class="horizontal-separator"&gt;&lt;/li&gt;&#13;
+				<?php for($i=29;$i<30;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&#13;
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '33'); ?>"&gt;<?php cell($value . '33'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=34;$i<37;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '40'); ?>"&gt;<?php cell($value . '40'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=41;$i<48;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&lt;/div&gt;&#13;
+				
+				&lt;div class="bottom-line"&gt;&#13;
+				<?php $rows = array(10, 20, 31, 38, 48); foreach($rows as $row): ?>
+				&lt;div class="col-5"&gt;&lt;a href="<?php cell($right . $row); ?>"&gt;&lt;strong&gt;<?php cell($value . $row); ?>&lt;/strong&gt;&lt;/a&gt;&lt;/div&gt;&#13;
+				<?php endforeach; ?>	
+				&lt;/div&gt;&#13;
+				&lt;/div&gt;
+			</custom-attribute>
+			<?php endforeach; ?>
+			<?php foreach ($locales as $key => $value ): ?>	
+			<custom-attribute attribute-id="directLink" xml:lang="<?php echo $key; ?>"><?php cell($value . '51'); ?></custom-attribute>
+			<?php endforeach; ?>
+		</custom-attributes>
+		<folder-links>
+			<classification-link folder-id="navigation-gender">
+				<position>4.0</position>
+			</classification-link>
+		</folder-links>
+		<sitemap-included-flag>false</sitemap-included-flag>
+	</content> 
+
+	<?php $objPHPExcel->setActiveSheetIndex(3); ?>
+
+	<content content-id="navigation-category-sports">
+		<?php foreach ($locales as $key => $value ): ?>	
+		<display-name xml:lang="<?php echo $key; ?>"><?php cell($value . '3'); ?></display-name>	
+		<?php endforeach; ?>
+		<online-flag>true</online-flag>
+		<searchable-flag>false</searchable-flag>
+		<page-attributes/>
+		<custom-attributes>
+			<?php foreach ($locales as $key => $value ): $right = $value; $right++; ?>		
+			<custom-attribute attribute-id="body" xml:lang="<?php echo $key; ?>">
+				&lt;div class="flyout-content-in"&gt;&#13;
+				&lt;div class="main-line with-line"&gt;&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&#13;
+				&#13;
+				&lt;a class="text-logo" href="<?php cell($right . '5'); ?>"&gt;<?php cell($value . '5'); ?>&lt;/a&gt;&#13;
+				&lt;a class="image-banner" href="<?php cell($right . '5'); ?>"&gt; &lt;img alt="football" src="header-redesign/Header_images_football.jpg?$staticlink$" style="width: 172px; height: 80px;" /&gt; &lt;/a&gt;&#13;
+				&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;ul&gt;&#13;			  
+				<?php for($i=7;$i<10;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>			
+				&lt;li class="horizontal-separator"&gt;&amp;nbsp;&lt;/li&gt;&#13;
+				<?php for($i=11;$i<14;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="adidas-brand headline"&gt;&#13;
+				&lt;a class="text-logo" href="<?php cell($right . '17'); ?>"&gt;<?php cell($value . '17'); ?>&lt;/a&gt;&#13;
+				&lt;a class="image-banner" href="<?php cell($right . '18'); ?>"&gt; &lt;img alt="running" src="header-redesign/Header_images_running.jpg?$staticlink$" style="width: 172px; height: 80px;" /&gt; &lt;/a&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=19;$i<22;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>			
+				&lt;li class="horizontal-separator"&gt;&amp;nbsp;&lt;/li&gt;&#13;
+				<?php for($i=23;$i<26;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&#13;
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="adidas-brand headline"&gt;&#13;
+				&lt;a class="text-logo" href="<?php cell($right . '29'); ?>"&gt;<?php cell($value . '29'); ?>&lt;/a&gt;&#13;
+				&lt;a class="image-banner" href="<?php cell($right . '30'); ?>"&gt; &lt;img alt="basketball" src="header-redesign/Header_images_basketball.jpg?$staticlink$" style="width: 172px; height: 80px;" /&gt; &lt;/a&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=31;$i<34;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>			
+				&lt;li class="horizontal-separator"&gt;&amp;nbsp;&lt;/li&gt;&#13;
+				<?php for($i=35;$i<38;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="adidas-brand headline"&gt;&#13;
+				&lt;a class="text-logo" href="<?php cell($right . '41'); ?>"&gt;<?php cell($value . '41'); ?>&lt;/a&gt;&#13;
+				&lt;a class="image-banner" href="<?php cell($right . '42'); ?>"&gt; &lt;img alt="training" src="header-redesign/Header_images_training.jpg?$staticlink$" style="width: 172px; height: 80px;" /&gt; &lt;/a&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=43;$i<46;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>			
+				&lt;li class="horizontal-separator"&gt;&amp;nbsp;&lt;/li&gt;&#13;
+				<?php for($i=47;$i<50;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;div class="separate col-5"&gt;&#13;
+				&lt;div class="adidas-brand headline"&gt;<?php cell($value . '53'); ?>&lt;/div&gt;&#13;
+				&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=54;$i<60;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;div class="bottom-line with-line"&gt;&#13;
+				<?php $rows = array(15, 27, 39, 51); foreach($rows as $row): ?>
+				&lt;div class="col-5"&gt;&lt;a href="<?php cell($right . $row); ?>"&gt;&lt;strong&gt;<?php cell($value . $row); ?>&lt;/strong&gt;&lt;/a&gt;&lt;/div&gt;&#13;
+				<?php endforeach; ?>
+				<?php $rows = array(61); foreach($rows as $row): ?>
+				&lt;div class="separate col-5"&gt;&lt;a href="<?php cell($right . $row); ?>"&gt;&lt;strong&gt;<?php cell($value . $row); ?>&lt;/strong&gt;&lt;/a&gt;&lt;/div&gt;&#13;
+				<?php endforeach; ?>			   		  
+				&lt;/div&gt;&#13;
+				&lt;/div&gt;
+			</custom-attribute>
+			<?php endforeach; ?>
+			<?php foreach ($locales as $key => $value ): ?>	
+			<custom-attribute attribute-id="directLink" xml:lang="<?php echo $key; ?>"><?php cell($value . '64'); ?></custom-attribute>
+			<?php endforeach; ?>		  
+		</custom-attributes>
+		<folder-links>
+			<classification-link folder-id="navigation-category">
+				<position>1.0</position>
+			</classification-link>
+		</folder-links>
+		<sitemap-included-flag>false</sitemap-included-flag>
+	</content>
+
+	<?php $objPHPExcel->setActiveSheetIndex(4); ?>
+
+	<content content-id="navigation-category-labels">
+		<?php foreach ($locales as $key => $value ): ?>	
+		<display-name xml:lang="<?php echo $key; ?>"><?php cell($value . '3'); ?></display-name>	
+		<?php endforeach; ?>
+		<online-flag>true</online-flag>
+		<searchable-flag>false</searchable-flag>
+		<page-attributes/>
+		<custom-attributes>
+			<?php foreach ($locales as $key => $value ): $right = $value; $right++; ?>				  
+			<custom-attribute attribute-id="body" xml:lang="<?php echo $key; ?>">&lt;div class="flyout-content-in"&gt;&#13;
+				&lt;div class="main-line with-line"&gt;&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="headline"&gt;&lt;a class="image-logo" href="<?php cell($right . '5'); ?>"&gt;&lt;img alt="originals" src="header-redesign/original.png?$staticlink$" style="width: 172px; height: 26px;" /&gt; &lt;/a&gt; &lt;a class="image-banner" href="<?php cell($right . '5'); ?>"&gt; &lt;img alt="" src="header-redesign/Header_images_originals.jpg?$staticlink$" style="width: 172px; height: 80px;" /&gt; &lt;/a&gt;&lt;/div&gt;&#13;
+				&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=7;$i<10;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&lt;li class="horizontal-separator"&gt;&amp;nbsp;&lt;/li&gt;&#13;
+				<?php for($i=11;$i<14;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="adidas-brand headline"&gt;&lt;a class="image-logo" href="<?php cell($right . '17'); ?>"&gt;&lt;img alt="" src="header-redesign/neo.png?$staticlink$" style="width: 172px; height: 26px;" /&gt; &lt;/a&gt; &lt;a class="image-banner" href="<?php cell($right . '17'); ?>"&gt; &lt;img alt="stella" src="header-redesign/Header_images_NEO.jpg?$staticlink$" style="width: 172px; height: 80px;" /&gt; &lt;/a&gt;&lt;/div&gt;&#13;
+				&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=19;$i<22;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&lt;li class="horizontal-separator"&gt;&amp;nbsp;&lt;/li&gt;&#13;
+				<?php for($i=23;$i<26;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="adidas-brand headline"&gt;&lt;a class="image-logo" href="<?php cell($right . '29'); ?>"&gt;&lt;img alt="" src="header-redesign/stella.png?$staticlink$" style="width: 172px; height: 26px;" /&gt; &lt;/a&gt; &lt;a class="image-banner" href="<?php cell($right . '30'); ?>"&gt; &lt;img alt="stella" src="header-redesign/Header_images_stella.jpg?$staticlink$" style="width: 172px; height: 80px;" /&gt; &lt;/a&gt;&lt;/div&gt;&#13;
+				&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=31;$i<34;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&lt;li class="horizontal-separator"&gt;&amp;nbsp;&lt;/li&gt;&#13;
+				<?php for($i=35;$i<38;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;div class="col-5"&gt;&#13;
+				&lt;div class="adidas-brand headline"&gt;&lt;a class="image-logo" href="<?php cell($right . '41'); ?>"&gt;&lt;img alt="" src="header-redesign/Brand_logos_Porsche_line.jpg?$staticlink$" style="width: 172px; height: 26px;" /&gt; &lt;/a&gt; &lt;a class="image-banner" href="<?php cell($right . '42'); ?>"&gt; &lt;img alt="porsche design" src="header-redesign/Header_images_Porsche.jpg?$staticlink$" style="width: 172px; height: 80px;" /&gt; &lt;/a&gt;&lt;/div&gt;&#13;
+				&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=43;$i<46;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&lt;li class="horizontal-separator"&gt;&amp;nbsp;&lt;/li&gt;&#13;
+				<?php for($i=47;$i<50;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;div class="separate col-5"&gt;&#13;
+				&lt;div class="adidas-brand headline"&gt;<?php cell($value . '53'); ?>&lt;/div&gt;&#13;
+				&#13;
+				&lt;ul&gt;&#13;
+				<?php for($i=54;$i<60;$i++): ?>
+				&lt;li&gt;&lt;a href="<?php cell($right . $i); ?>"&gt;<?php cell($value . $i); ?>&lt;/a&gt;&lt;/li&gt;&#13;				
+				<?php endfor; ?>	
+				&lt;/ul&gt;&#13;
+				&lt;/div&gt;&#13;
+				&lt;/div&gt;&#13;
+				&#13;
+				&lt;div class="bottom-line with-line"&gt;&#13;
+				<?php $rows = array(15, 27, 39, 51); foreach($rows as $row): ?>
+				&lt;div class="col-5"&gt;&lt;a href="<?php cell($right . $row); ?>"&gt;&lt;strong&gt;<?php cell($value . $row); ?>&lt;/strong&gt;&lt;/a&gt;&lt;/div&gt;&#13;
+				<?php endforeach; ?>						
+				&lt;/div&gt;&#13;
+				&lt;/div&gt;
+				</custom-attribute>
+				<?php endforeach; ?>
+				<?php foreach ($locales as $key => $value ): ?>	
+				<custom-attribute attribute-id="directLink" xml:lang="<?php echo $key; ?>"><?php cell($value . '62'); ?></custom-attribute>
+				<?php endforeach; ?>		  
+			</custom-attributes>
+			<folder-links>
+				<classification-link folder-id="navigation-category">
+					<position>2.0</position>
+				</classification-link>
+			</folder-links>
+			<sitemap-included-flag>false</sitemap-included-flag>
+		</content>  
+		
+		<?php $objPHPExcel->setActiveSheetIndex(5); ?>
+		
+	    <content content-id="navigation-services-customise">
+			<?php foreach ($locales as $key => $value ): ?>	
+			<display-name xml:lang="<?php echo $key; ?>"><?php cell($value . '3'); ?></display-name>	
+			<?php endforeach; ?>
+	        <online-flag>true</online-flag>
+	        <searchable-flag>false</searchable-flag>
+	        <page-attributes/>
+	        <custom-attributes>
+				<?php foreach ($locales as $key => $value ): $right = $value; $right++; ?>	
+	            <custom-attribute attribute-id="body" xml:lang="<?php echo $key; ?>">
+					&lt;div class="flyout-content-in"&gt;&#13;
+					&lt;div class="col-2 attract-content"&gt;&#13;
+					&lt;div class="main-container"&gt;&#13;
+					&lt;div class="main-content"&gt;&#13;
+					&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '5'); ?>" manual_cm_sp="header-_-customise-_-addyournameandnumber"&gt;<?php cell($value . '5'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+					&#13;
+					&lt;div class="text-content"&gt;<?php cell($value . '7'); ?>&lt;/br&gt;&#13;
+					&lt;strong&gt;<?php cell($value . '9'); ?>&lt;/strong&gt;&lt;/br&gt;&#13;
+					&lt;strong&gt;<?php cell($value . '10'); ?>&lt;/strong&gt;&lt;/div&gt;&#13;
+					&#13;
+					&lt;ul class="links"&gt;&#13;
+						&lt;li&gt;&lt;a href="<?php cell($right . '12'); ?>" manual_cm_sp="header-_-customise-_-viewallproductspersonalise"&gt;<?php cell($value . '12'); ?>&lt;/a&gt;&lt;/li&gt;&#13;
+					&lt;/ul&gt;&#13;
+					&lt;/div&gt;&#13;
+					&#13;
+					&lt;div class="image-content"&gt; &lt;a href="<?php cell($right . '14'); ?>" manual_cm_sp="header-_-customise-_-imagepersonalise"&gt;&lt;img style="width:200px; height: 185px" src="header-redesign/flyout-personalise.jpg?$staticlink$" alt="personalise" /&gt;&lt;/a&gt;&lt;/div&gt;&#13;
+					&lt;/div&gt;&#13;
+					&lt;/div&gt;&#13;
+					&lt;div class="col-2 attract-content" &gt;&#13;
+					&lt;div class="main-container"&gt;&#13;
+					&lt;div class="main-content"&gt;&#13;
+					&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '16'); ?>" manual_cm_sp="header-_-customise-_-designyourown"&gt;<?php cell($value . '16'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+					&#13;
+					&lt;div class="text-content"&gt;<?php cell($value . '18'); ?>&lt;br /&gt;&#13;
+					&lt;strong&gt;<?php cell($value . '20'); ?>&lt;/strong&gt;&lt;br /&gt;&#13;
+					&lt;strong&gt;<?php cell($value . '21'); ?>&lt;/strong&gt;&lt;/div&gt;&#13;
+					&#13;
+					&lt;ul class="links"&gt;&#13;
+						&lt;li&gt;&lt;a href="<?php cell($right . '23'); ?>" manual_cm_sp="header-_-customise-_-learnmore"&gt;<?php cell($value . '23'); ?>&lt;/a&gt;&lt;/li&gt;&#13;
+						&lt;li&gt;&lt;a href="<?php cell($right . '24'); ?>" manual_cm_sp="header-_-customise-_-viewallproductscustomize"&gt;<?php cell($value . '24'); ?>&lt;/a&gt;&lt;/li&gt;&#13;
+					&lt;/ul&gt;&#13;
+					&lt;/div&gt;&#13;
+					&#13;
+					&lt;div class="image-content"&gt;&lt;a href="<?php cell($right . '26'); ?>" manual_cm_sp="header-_-customise-_-imagecustomize"&gt;&lt;img alt="customize" src="header-redesign/flyout-customize.jpg?$staticlink$" style="width:200px; height: 185px" /&gt;&lt;/a&gt;&lt;/div&gt;&#13;
+					&lt;/div&gt;&#13;
+					&lt;/div&gt;&#13;
+					&lt;/div&gt;
+				</custom-attribute>
+				<?php endforeach; ?>
+				<?php foreach ($locales as $key => $value ): ?>	
+				<custom-attribute attribute-id="directLink" xml:lang="<?php echo $key; ?>"><?php cell($value . '29'); ?></custom-attribute>
+				<?php endforeach; ?>           
+	        </custom-attributes>
+	        <folder-links>
+	            <classification-link folder-id="navigation-services">
+	                <position>1.0</position>
+	            </classification-link>
+	        </folder-links>
+	        <sitemap-included-flag>false</sitemap-included-flag>
+	    </content>	
+		
+		<?php $objPHPExcel->setActiveSheetIndex(6); ?>
+		
+		<content content-id="navigation-services-micoach">
+			<?php foreach ($locales as $key => $value ): ?>	
+			<display-name xml:lang="<?php echo $key; ?>"><?php cell($value . '3'); ?></display-name>	
+			<?php endforeach; ?>
+			
+			<online-flag>true</online-flag>
+			<searchable-flag>false</searchable-flag>
+			<page-attributes/>
+			<custom-attributes>
+				<?php foreach ($locales as $key => $value ): $right = $value; $right++; ?>	
+	            <custom-attribute attribute-id="body" xml:lang="<?php echo $key; ?>">
+					&lt;div class="flyout-content-in"&gt;&#13;
+					&lt;div class="col-2 attract-content"&gt;&#13;
+					&lt;div class="main-container"&gt;&#13;
+					&lt;div class="main-content"&gt;&#13;
+					&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '5'); ?>" manual_cm_sp="header-_-micoach-_-gettrained"&gt;<?php cell($value . '5'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+					&lt;div class="text-content"&gt;<?php cell($value . '7'); ?>&lt;br /&gt;<?php cell($value . '8'); ?> &lt;/div&gt;&#13;
+					&lt;ul class="links"&gt;&#13;
+					&lt;li&gt;&lt;a href="<?php cell($right . '10'); ?>" manual_cm_sp="header-_-micoach-_-moreaboutmicoach"&gt;<?php cell($value . '10'); ?>&lt;/a&gt;&lt;/li&gt;&#13;
+					&lt;/ul&gt;&#13;
+					&lt;/div&gt;&#13;
+					&#13;
+					&lt;div class="image-content"&gt;&#13;
+					&lt;a href="<?php cell($right . '12'); ?>" manual_cm_sp="header-_-micoach-_-gettrainedimage"&gt;&lt;img style="width:200px; height: 185px" src="header-redesign/flyout-miCoach-aware.jpg?$staticlink$" alt="aware" /&gt;&lt;/a&gt;&#13;
+					&lt;/div&gt;&#13;
+					&lt;/div&gt;&#13;
+					&lt;/div&gt;&#13;
+					&#13;
+					&#13;
+					&lt;div class="col-2 attract-content"&gt;&#13;
+					&lt;div class="main-container"&gt;&#13;
+					&lt;div class="main-content"&gt;&#13;
+					&lt;div class="headline"&gt;&lt;a href="<?php cell($right . '14'); ?>" manual_cm_sp="header-_-micoach-_-micoachproducts"&gt;<?php cell($value . '14'); ?>&lt;/a&gt;&lt;/div&gt;&#13;
+					&lt;div class="text-content"&gt;<?php cell($value . '16'); ?>&lt;/div&gt;&#13;
+					&lt;ul class="links"&gt;&#13;
+					&lt;li&gt;&lt;a href="<?php cell($right . '18'); ?>" manual_cm_sp="header-_-micoach-_-viewallproducts" &gt;<?php cell($value . '18'); ?>&lt;/a&gt;&lt;/li&gt;&#13;
+					&lt;/ul&gt;&#13;
+					&lt;/div&gt;&#13;
+					&#13;
+					&lt;div class="image-content"&gt;&#13;
+					&lt;a href="<?php cell($right . '20'); ?>" manual_cm_sp="header-_-micoach-_-micoachproductsimage"&gt;&lt;img style="width:200px; height: 185px" src="header-redesign/flyout-miCoach-products.jpg?$staticlink$" alt="products" /&gt;&lt;/a&gt;&#13;
+					&lt;/div&gt;&#13;
+					&lt;/div&gt;&#13;
+					&lt;/div&gt;&#13;
+					&#13;
+					&lt;/div&gt;</custom-attribute>
+
+					<?php endforeach; ?>
+					<?php foreach ($locales as $key => $value ): ?>	
+					<custom-attribute attribute-id="directLink" xml:lang="<?php echo $key; ?>"><?php cell($value . '23'); ?></custom-attribute>
+					<?php endforeach; ?>
+				</custom-attributes>
+				<folder-links>
+					<classification-link folder-id="navigation-services">
+						<position>2.0</position>
+					</classification-link>
+				</folder-links>
+				<sitemap-included-flag>false</sitemap-included-flag>
+			</content>		
+			
+			<?php $objPHPExcel->setActiveSheetIndex(7); ?>			
+			
+		    <content content-id="navigation-utilities-account-guest-links">
+		        <display-name xml:lang="x-default">Navigation Account Guest Links</display-name>
+		        <description xml:lang="x-default">Links that will be shown account flyout for site guests.</description>
+		        <online-flag>true</online-flag>
+		        <searchable-flag>false</searchable-flag>
+		        <page-attributes/>
+		        <custom-attributes>
+					<?php foreach ($locales as $key => $value ): $right = $value; $right++; ?>						
+		            <custom-attribute attribute-id="body" xml:lang="<?php echo $key; ?>">&lt;li class="account-item"&gt;&lt;a href="<?php cell($right . '2'); ?>" manual_cm_sp="header-_-profilenotloggedin-_-orderstatus"&gt;<?php cell($value . '2'); ?>&lt;/a&gt;&lt;/li&gt;</custom-attribute>
+					<?php endforeach; ?>
+		        </custom-attributes>
+		        <folder-links>
+		            <classification-link folder-id="navigation-utilities"/>
+		        </folder-links>
+		    </content>
+			
+			<?php $objPHPExcel->setActiveSheetIndex(8); ?>			
+			
+		    <content content-id="navigation-utilities-account-customer-links">
+		        <display-name xml:lang="x-default">Navigation Account Customer Links</display-name>
+		        <description xml:lang="x-default">Links that will be shown account flyout for authorised customer.</description>
+		        <online-flag>true</online-flag>
+		        <searchable-flag>false</searchable-flag>
+		        <page-attributes/>
+		        <custom-attributes>
+					<?php foreach ($locales as $key => $value ): $right = $value; $right++; ?>											
+		            <custom-attribute attribute-id="body" xml:lang="<?php echo $key; ?>">
+					&lt;!--&lt;li class="account-item"&gt;&lt;a href="<?php cell($right . '2'); ?>" manual_cm_sp="header-_-profileloggedin-_-myaccount"&gt;<?php cell($value . '2'); ?>&lt;/a&gt;&lt;/li&gt;--&gt;&#13;
+		            &lt;li class="account-item"&gt;&lt;a href="https://www.adidas.co.uk/on/demandware.store/Sites-adidas-GB-Site/en_GB/Order-History" manual_cm_sp="header-_-profileloggedin-_-orderstatus"&gt;order status&lt;/a&gt;&lt;/li&gt;&#13;
+		        	&lt;li class="account-item"&gt;&lt;a href="<?php cell($right . '3'); ?>" manual_cm_sp="header-_-profileloggedin-_-backstage"&gt;<?php cell($value . '2'); ?>&lt;/a&gt;&lt;/li&gt;&#13;
+		   		 	&lt;li class="account-item"&gt;&lt;a href="<?php cell($right . '4'); ?>" manual_cm_sp="header-_-profileloggedin-_-whishlist"&gt;<?php cell($value . '4'); ?>&lt;/a&gt;&lt;/li&gt;
+				</custom-attribute>            
+				<?php endforeach; ?>
+				</custom-attributes>
+		        <folder-links>
+		            <classification-link folder-id="navigation-utilities"/>
+		        </folder-links>
+		    </content>	

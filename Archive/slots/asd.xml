@@ -1,0 +1,1866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slot-configurations xmlns="http://www.demandware.com/xml/impex/slot/2008-09-08">
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Basketball" configuration-id="clp-Basketball-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-basketball-fw14-crazy-light-4-boost-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Basketball" configuration-id="clp-Basketball-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-basketball-fw14-crazy-light-4-boost-fc-double"/>
+        <content-asset content-id="BRAND_adidas-p-basketball-fw14-crazy-light-4-boost-toe-fc-single"/>
+        <content-asset content-id="BRAND_adidas-p-basketball-fw14-crazy-light-4-boost-heel-fc-single"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Basketball" configuration-id="clp-Basketball-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Basketball" configuration-id="clp-Basketball-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Basketball" configuration-id="clp-Basketball-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Basketball" configuration-id="clp-Basketball-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Basketball" configuration-id="clp-Basketball-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Basketball" configuration-id="clp-Basketball-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Basketball" configuration-id="clp-Basketball-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Football" configuration-id="clp-Football-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-football-ss14-messi-boot-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-football-ss14-messi-core-image-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-football-ss14-new-predator-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="category-main-mobile" context="category" context-id="Football" configuration-id="clp-Football-slot-1-default-mobile" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-football-ss14-messi-boot-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-football-ss14-messi-core-image-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-football-ss14-new-predator-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Football" configuration-id="clp-Football-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Football" configuration-id="clp-Football-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-football-ss14-new-silos-11pro-fc-single"/>
+        <content-asset content-id="BRAND_adidas-p-football-ss14-new-silos-f50-fc-single"/>
+        <content-asset content-id="BRAND_adidas-p-football-ss14-new-silos-nitrocharge-fc-single"/>
+        <content-asset content-id="BRAND_adidas-p-football-ss14-new-silos-predator-fc-single"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Football" configuration-id="clp-Football-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Football" configuration-id="clp-Football-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Football" configuration-id="clp-Football-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Football" configuration-id="clp-Football-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Football" configuration-id="clp-Football-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Football" configuration-id="clp-Football-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Golf" configuration-id="clp-Golf-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-golf-fw14-superstar-samba-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-golf-fw14-mi-adidas-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-golf-fw14-ryder-cup-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Golf" configuration-id="clp-Golf-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-golf-fw14-gripmore-fc-single"/>
+        <content-asset content-id="BRAND_adidas-p-golf-fw14-ryder-cup-feature-single"/>
+        <content-asset content-id="BRAND_adidas-p-golf-fw14-climachill-fc-single"/>
+        <content-asset content-id="BRAND_adidas-p-golf-fw14-mi-adidas-fc-single"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Golf" configuration-id="clp-Golf-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Golf" configuration-id="clp-Golf-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Golf" configuration-id="clp-Golf-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Golf" configuration-id="clp-Golf-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Golf" configuration-id="clp-Golf-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Golf" configuration-id="clp-Golf-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Golf" configuration-id="clp-Golf-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="adidas Neo" configuration-id="clp-NEO-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-neo-fw14-selena-gomez-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="adidas Neo" configuration-id="clp-NEO-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-neo-fw14-selena-gomez-media-slider"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="adidas Neo" configuration-id="clp-NEO-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-neo-fw14-instagram-fc-single"/>
+        <content-asset content-id="BRAND_adidas-s-neo-fw14-shoes-fc-single"/>
+        <content-asset content-id="BRAND_adidas-s-neo-fw14-boys-fc-single"/>
+        <content-asset content-id="BRAND_adidas-s-neo-fw14-girls-fc-single"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="adidas Neo" configuration-id="clp-NEO-slot-4-default" default="true" assigned-to-site="false">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-neo-fw14-selena-gomez-outfit"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="adidas Neo" configuration-id="clp-NEO-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Originals" configuration-id="clp-Originals-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-originals-fw14-september-rita-ora-pastel-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-originals-fw14-september-zx-flux-ballistic-clp-glp-mh"/>
+        <content-asset content-id="BRAND_adidas-originals-fw14-august-farm-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-originals-fw14-blue-collection-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Originals" configuration-id="clp-Originals-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-originals-fw14-august-rita-ora-video-media-slider"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Originals" configuration-id="clp-Originals-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">Features</callout-msg>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-originals-fw14-august-farm-fc-double"/>
+        <content-asset content-id="BRAND_adidas-originals-fw14-blue-collection-fc-double"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="customTitle" xml:lang="x-default">Features</custom-attribute>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Originals" configuration-id="clp-Originals-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">Media slider</callout-msg>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-originals-fw14-september-zx-flux-product-slider"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="customTitle" xml:lang="x-default">Media slider!</custom-attribute>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Originals" configuration-id="clp-Originals-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">Product slider</callout-msg>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-originals-fw14-mizxfluxapp-appstore-fc-double"/>
+        <content-asset content-id="BRAND_adidas-originals-fw14-august-latest-drops-eqt-quidance-fc-double"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="customTitle" xml:lang="x-default">Product slider</custom-attribute>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Originals" configuration-id="clp-Originals-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Originals" configuration-id="clp-Originals-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Originals" configuration-id="clp-Originals-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Originals" configuration-id="clp-Originals-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Outdoor" configuration-id="clp-Outdoor-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-outdoor-ss14-terrex-pack-scope-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-outdoor-ss14-brazil-gai-story-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-outdoor-ss14-oman-gai-story-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Outdoor" configuration-id="clp-Outdoor-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-outdoor-ss14-terrex-pack-instagram-fc-single"/>
+        <content-asset content-id="BRAND_adidas-p-outdoor-ss14-terrex-pack-facebook-fc-single"/>
+        <content-asset content-id="BRAND_adidas-p-outdoor-ss14-terrex-pack-ipad-fc-single"/>
+        <content-asset content-id="BRAND_adidas-p-outdoor-ss14-terrex-pack-rockstart-fc-single"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Outdoor" configuration-id="clp-Outdoor-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-outdoor-ss14-oman-media-slider"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Outdoor" configuration-id="clp-Outdoor-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-outdoor-ss14-outdoor-shoes-fc-double"/>
+        <content-asset content-id="BRAND_adidas-p-outdoor-ss14-outdoor-clothing-fc-double"/>
+      </content-assets>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Outdoor" configuration-id="clp-Outdoor-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Outdoor" configuration-id="clp-Outdoor-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Outdoor" configuration-id="clp-Outdoor-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Outdoor" configuration-id="clp-Outdoor-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Outdoor" configuration-id="clp-Outdoor-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Porsche Design Sport" configuration-id="clp-Porsche Design Sport-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-pds-fw14-men-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Porsche Design Sport" configuration-id="clp-Porsche Design Sport-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">Features</callout-msg>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-pds-fw14-men-media-slider"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="customTitle" xml:lang="x-default">Features</custom-attribute>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Porsche Design Sport" configuration-id="clp-Porsche Design Sport-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">Media slider</callout-msg>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-pds-fw14-both-gender-fc-double"/>
+        <content-asset content-id="BRAND_adidas-s-pds-fw14-mounrinho-fc-double"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="customTitle" xml:lang="x-default">Media slider</custom-attribute>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Porsche Design Sport" configuration-id="clp-Porsche Design Sport-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-pds-fw14-men-outfit"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Porsche Design Sport" configuration-id="clp-Porsche Design Sport-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Porsche Design Sport" configuration-id="clp-Porsche Design Sport-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Porsche Design Sport" configuration-id="clp-Porsche Design Sport-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Porsche Design Sport" configuration-id="clp-Porsche Design Sport-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_us-replatform-clp-mh-test-videoid"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Porsche Design Sport" configuration-id="clp-Porsche Design Sport-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Rugby" configuration-id="clp-Rugby-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Rugby" configuration-id="clp-Rugby-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Rugby" configuration-id="clp-Rugby-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Rugby" configuration-id="clp-Rugby-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Rugby" configuration-id="clp-Rugby-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Rugby" configuration-id="clp-Rugby-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Rugby" configuration-id="clp-Rugby-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Rugby" configuration-id="clp-Rugby-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Rugby" configuration-id="clp-Rugby-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Running" configuration-id="clp-Running-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-running-fw14-energy-boost-tech-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-running-fw14-energy-boost-women-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-10" context="category" context-id="Running" configuration-id="clp-Running-slot-10-default" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>false</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Running" configuration-id="clp-Running-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-running-fw14-energy-boost-tech-img-gallery"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Running" configuration-id="clp-Running-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-running-fw14-energy-boost-tech-media-slider"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Running" configuration-id="clp-Running-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-running-fw14-energy-boost-women-product-slider"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Running" configuration-id="clp-Running-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-running-fw14-energy-boost-women-outfit"/>
+      </content-assets>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Running" configuration-id="clp-Running-slot-6-default" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>false</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Running" configuration-id="clp-Running-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Running" configuration-id="clp-Running-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Running" configuration-id="clp-Running-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="adidas by Stella McCartney" configuration-id="clp-Stella-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-stella-ss14-us-open-caroline-wozniacki-barricade-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-s-stella-ss14-yoga-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Swimming" configuration-id="clp-Swimming-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Swimming" configuration-id="clp-Swimming-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Swimming" configuration-id="clp-Swimming-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Swimming" configuration-id="clp-Swimming-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Swimming" configuration-id="clp-Swimming-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Swimming" configuration-id="clp-Swimming-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Swimming" configuration-id="clp-Swimming-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Swimming" configuration-id="clp-Swimming-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Swimming" configuration-id="clp-Swimming-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Tennis" configuration-id="clp-Tennis-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_p-tennis-ss14-us-open-murray-clp-mh"/>
+        <content-asset content-id="BRAND_p-tennis-ss14-us-open-ivanovic-clp-mh"/>
+        <content-asset content-id="BRAND_s-stella-ss14-us-open-caroline-wozniacki-barricade-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Tennis" configuration-id="clp-Tennis-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-tennis-ss14-us-open-tsonga-fc-double"/>
+        <content-asset content-id="BRAND_adidas-s-stella-ss14-us-open-caroline-wozniacki-barricade-fc-double"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Tennis" configuration-id="clp-Tennis-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Tennis" configuration-id="clp-Tennis-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Tennis" configuration-id="clp-Tennis-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Tennis" configuration-id="clp-Tennis-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Tennis" configuration-id="clp-Tennis-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Tennis" configuration-id="clp-Tennis-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Tennis" configuration-id="clp-Tennis-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Training" configuration-id="clp-Training-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-ss14-training-climachill-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-ss14-training-techfit-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-training-ss14-mygirls-running-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Training" configuration-id="clp-Training-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-ss14-training-climachill-fc-double"/>
+        <content-asset content-id="BRAND_adidas-p-training-ss14-mygirls-training-shoes-female-fc-double"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Training" configuration-id="clp-Training-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Training" configuration-id="clp-Training-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Training" configuration-id="clp-Training-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Training" configuration-id="clp-Training-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Training" configuration-id="clp-Training-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Training" configuration-id="clp-Training-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Training" configuration-id="clp-Training-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="Y-3" configuration-id="clp-Y-3-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="Y-3" configuration-id="clp-Y-3-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="Y-3" configuration-id="clp-Y-3-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="Y-3" configuration-id="clp-Y-3-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="Y-3" configuration-id="clp-Y-3-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="Y-3" configuration-id="clp-Y-3-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="Y-3" configuration-id="clp-Y-3-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Y-3" configuration-id="clp-Y-3-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="Y-3" configuration-id="clp-Y-3-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="adidas NEO" configuration-id="clp-adidas NEO-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="adidas NEO" configuration-id="clp-adidas NEO-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-neo-fw14-selena-gomez-media-slider"/>
+      </content-assets>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="adidas NEO" configuration-id="clp-adidas NEO-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="adidas NEO" configuration-id="clp-adidas NEO-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="adidas NEO" configuration-id="clp-adidas NEO-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="adidas NEO" configuration-id="clp-adidas NEO-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="adidas NEO" configuration-id="clp-adidas NEO-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="adidas NEO" configuration-id="clp-adidas NEO-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="adidas NEO" configuration-id="clp-adidas NEO-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="customise" configuration-id="clp-customise-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-eu-miadidas-mizflux-app-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-eu-miadidas-mizflux-app-shoes-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-eu-miadidas-energy-boost-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="customise" configuration-id="clp-customise-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="customise" configuration-id="clp-customise-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/product/certona5x5.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">We recommend</callout-msg>
+    <content>
+      <products/>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="certonaRecommendationCount">25</custom-attribute>
+      <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+      <custom-attribute attribute-id="customTitle" xml:lang="x-default">We recommend</custom-attribute>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+      <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="customize" configuration-id="clp-customize-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="customize" configuration-id="clp-customize-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="customize" configuration-id="clp-customize-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-4" context="category" context-id="customize" configuration-id="clp-customize-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-5" context="category" context-id="customize" configuration-id="clp-customize-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-6" context="category" context-id="customize" configuration-id="clp-customize-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-7" context="category" context-id="customize" configuration-id="clp-customize-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="customize" configuration-id="clp-customize-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="customize" configuration-id="clp-customize-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-1" context="category" context-id="men" configuration-id="clp-football-slot-1-default" assigned-to-site="true">
+    <template>slots/content/carousel_cp.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-eu-cc-originals-fw14-back-to-school-men-glp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="Football" configuration-id="clp-football-slot-8-default" assigned-to-site="true">
+    <template>slots/product/certona5x5.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">You like soccer?</callout-msg>
+    <content>
+      <products/>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="certonaRecommendationCount">25</custom-attribute>
+      <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+      <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="category-main-mobile" context="category" context-id="micoach" configuration-id="clp-slot-1-default-micoach-mobile" default="true" assigned-to-site="true">
+    <template>slots/content/swipecontainer_cp.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-micoach-ss14-smartball-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-micoach-ss14-smartrun-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-micoach-ss14-multisport-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="micoach" configuration-id="clp-slot-1-micoach-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-micoach-ss14-smartball-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-micoach-ss14-smartrun-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-micoach-ss14-multisport-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="micoach" configuration-id="clp-slot-2-micoach-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-micoach-ss14-smartball-fc-double"/>
+        <content-asset content-id="BRAND_adidas-p-micoach-ss14-smartrun-fc-wide"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="category-main-mobile" context="category" context-id="adidas by Stella McCartney" configuration-id="clp-stella-slot-1-default-mobile" default="true" assigned-to-site="true">
+    <template>slots/content/swipecontainer_cp.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-stella-ss14-us-open-caroline-wozniacki-barricade-clp-mh"/>
+        <content-asset content-id="BRAND_adidas-s-stella-ss14-yoga-clp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-2" context="category" context-id="adidas by Stella McCartney" configuration-id="clp-stella-slot-2-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-s-stella-ss14-us-open-caroline-wozniacki-barricade-fc-double"/>
+        <content-asset content-id="BRAND_adidas-s-stella-ss14-yoga-running-shoe-fc-double"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-1" context="category" context-id="test-clp" configuration-id="clp-test-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="masthead-dummy-CLP-1"/>
+        <content-asset content-id="masthead-dummy-2"/>
+        <content-asset content-id="masthead-dummy-3"/>
+        <content-asset content-id="masthead-dummy-4"/>
+        <content-asset content-id="masthead-dummy-5"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-10" context="category" context-id="test-clp" configuration-id="clp-test-slot-10-default" default="true" assigned-to-site="true">
+    <template>slots/product/certona5x5.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">Do you like soccer?</callout-msg>
+    <content>
+      <products/>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="certonaRecommendationCount">25</custom-attribute>
+      <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+      <custom-attribute attribute-id="customTitle" xml:lang="x-default">Do you like soccer?!</custom-attribute>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+      <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-3" context="category" context-id="test-clp" configuration-id="clp-test-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="Test-Feature"/>
+        <content-asset content-id="Test-Feature-2"/>
+        <content-asset content-id="Test-Feature-3"/>
+        <content-asset content-id="Test-Feature-4"/>
+        <content-asset content-id="Test-Feature-Wide"/>
+        <content-asset content-id="Test-Feature-Wide-Video"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-8" context="category" context-id="test-clp" configuration-id="clp-test-slot-8-default" default="true" assigned-to-site="true">
+    <template>slots/html/htmlslotcontainer.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">Linkfarm</callout-msg>
+    <content>
+      <html>
+        <body xml:lang="x-default">&lt;div class="clp-menu"&gt;
+  &lt;div&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+          &lt;h3&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals','grid','true')$"&gt;Originals&lt;/a&gt;&lt;/h3&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Shoes')$"&gt;Shoes&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Clothing')$"&gt;Clothing&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Accessories')$"&gt;Accessories&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="landing-menu-all"&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals','grid','true')$"&gt;&lt;strong&gt;View all&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;  
+    &lt;ul&gt;
+        &lt;li&gt;
+          &lt;h3&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Shoes')$"&gt;Shoes&lt;/a&gt;&lt;/h3&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Shoes','prefn1','productLineStyle','prefv1','Originals by Jeremy Scott')$"&gt;Originals by Jeremy Scott&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Shoes','q','Samba')$"&gt;Samba&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Shoes','q','Superstar')$"&gt;Superstar&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="landing-menu-all"&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Shoes')$"&gt;&lt;strong&gt;View all&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+          &lt;h3&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Clothing')$"&gt;Clothing&lt;/a&gt;&lt;/h3&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Clothing','prefn1','productLineStyle','prefv1','Originals by Jeremy Scott')$"&gt;Originals by Jeremy Scott&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show', 'cgid', 'Originals-Clothing','prefn1','productType','prefv1', 'Hoodies &amp; Track Tops')$"&gt;Hoodies &amp; Track Tops&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals Blue')$"&gt;Originals Blue&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="landing-menu-all"&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Clothing')$"&gt;&lt;strong&gt;View all&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+          &lt;h3&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Accessories')$"&gt;Accessories&lt;/a&gt;&lt;/h3&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Accessories','prefn1','productType','prefv1', 'Bags')$"&gt;Bags&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Accessories','prefn1','productType','prefv1','Gloves')$"&gt;Gloves&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Accessories','prefn1','productType','prefv1','Hats')$"&gt;Hats&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="landing-menu-all"&gt;&lt;a href="$httpUrl('Search-Show','cgid','Originals-Accessories')$"&gt;&lt;strong&gt;View all&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</body>
+      </html>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="clp-slot-9" context="category" context-id="test-clp" configuration-id="clp-test-slot-9-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">Technologies</callout-msg>
+    <content>
+      <content-assets>
+        <content-asset content-id="technologies-test"/>
+        <content-asset content-id="technologies-test-2"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="customTitle" xml:lang="x-default">Technologies</custom-attribute>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-1" context="category" context-id="kids" configuration-id="glp-kids-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-eu-cc-originals-fw14-back-to-school-kids-glp-mh"/>
+        <content-asset content-id="BRAND_adidas-eu-p-training-fw14-climachill-kids-glp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-1" context="category" context-id="men" configuration-id="glp-men-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-originals-fw14-september-zx-flux-ballistic-clp-glp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-6" context="category" context-id="men" configuration-id="glp-men-slot-6-default" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">Product stack</callout-msg>
+    <content>
+      <content-assets>
+        <content-asset content-id="test-product-stack"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="customTitle" xml:lang="x-default">Product stack</custom-attribute>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-4" context="category" context-id="men" configuration-id="glp-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-4" context="category" context-id="kids" configuration-id="glp-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-4" context="category" context-id="women" configuration-id="glp-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-5" context="category" context-id="kids" configuration-id="glp-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-5" context="category" context-id="women" configuration-id="glp-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-5" context="category" context-id="men" configuration-id="glp-slot-5-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-6" context="category" context-id="women" configuration-id="glp-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-6" context="category" context-id="kids" configuration-id="glp-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-6" context="category" context-id="men" configuration-id="glp-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-7" context="category" context-id="women" configuration-id="glp-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-7" context="category" context-id="men" configuration-id="glp-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-7" context="category" context-id="kids" configuration-id="glp-slot-7-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="test"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-1" context="category" context-id="women" configuration-id="glp-women-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-originals-fw14-september-rita-ora-pastel-glp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-2" context="category" context-id="women" configuration-id="glp-women-slot-2-features-default" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">callout</callout-msg>
+    <content>
+      <content-assets>
+        <content-asset content-id="Test-Feature-Wide-Video"/>
+        <content-asset content-id="Test-Feature-Wide"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="glp-slot-6" context="category" context-id="women" configuration-id="glp-women-slot-6-default" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">Product stack</callout-msg>
+    <content>
+      <content-assets>
+        <content-asset content-id="test-product-stack"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="customTitle" xml:lang="x-default">Product stack</custom-attribute>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="hp-slot-1" context="global" configuration-id="hp-slot-1-default" default="true" assigned-to-site="true">
+    <template>slots/content/masthead.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <callout-msg xml:lang="x-default">Callout</callout-msg>
+    <content>
+      <content-assets>
+        <content-asset content-id="BRAND_adidas-p-running-fw14-energy-boost-women-hp-mh"/>
+        <content-asset content-id="BRAND_adidas-originals-fw14-september-rita-ora-pastel-hp-mh"/>
+        <content-asset content-id="BRAND_adidas-p-basketball-fw14-crazy-light-4-boost-hp-mh"/>
+      </content-assets>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="hp-slot-3" context="global" configuration-id="hp-slot-3-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="hp-slot-4" context="global" configuration-id="hp-slot-4-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="hp-slot-6" context="global" configuration-id="hp-slot-6-default" default="true" assigned-to-site="true">
+    <template>slots/content/contentinclude.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <content-assets/>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="mobile-insert-GAI" context="global" configuration-id="mobile-insert-GAI-default" assigned-to-site="true">
+    <description>Slot "mobile-insert-GAI" for getting Custom links "Go All In"</description>
+    <template>slots/html/htmlslotcontainer.isml</template>
+    <enabled-flag>false</enabled-flag>
+    <content>
+      <html>
+        <body xml:lang="x-default">&lt;li&gt;
+    &lt;div class="navigation_background"&gt;&lt;a href="http://mobile.adidas.co.uk/goallin"&gt;Go All In&lt;/a&gt;&lt;/div&gt;
+&lt;/li&gt;</body>
+      </html>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="mobile-insert-salesnewarrivals" context="category" context-id="men" configuration-id="mobile-insert-salesnewarrivals-default" default="true" assigned-to-site="true">
+    <description>Slot for getting Custom links e.g. "New Arrival"</description>
+    <template>slots/html/htmlslotcontainer.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <html>
+        <body xml:lang="x-default">&lt;li class="promo"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','men','grid','true','srule','newest-to-oldest')$"&gt;New Arrivals&lt;/a&gt;&lt;/div&gt;
+&lt;/li&gt;</body>
+      </html>
+    </content>
+    <custom-attributes>
+      <custom-attribute attribute-id="enableAddToCart">false</custom-attribute>
+      <custom-attribute attribute-id="lazyLoadEnableSlot">false</custom-attribute>
+    </custom-attributes>
+  </slot-configuration>
+  <slot-configuration slot-id="mobile-navigation-secondary" context="global" configuration-id="mobile-navigation-secondary-default-config" assigned-to-site="true">
+    <template>slots/html/htmlslotcontainer.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <html>
+        <body xml:lang="x-default">&lt;ul class="navigation secondary"&gt;
+    &lt;li&gt;
+    &lt;div class="navigation_background"&gt;&lt;a href="http://mobile.adidas.ie/goallin"&gt;Go All In&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+    &lt;div class="navigation_background"&gt;&lt;a href="$httpUrl('Search-Show','cgid','Football')$"&gt;Football&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','Running')$"&gt;Running&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','Basketball')$"&gt;Basketball&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','Originals')$"&gt;Originals&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','Training')$"&gt;Training&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','men-Shoes','prefn1','sport','prefv1','Golf')$"&gt;Golf&lt;/a&gt;&lt;/li&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','Outdoor')$"&gt;Outdoor&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a href="$httpUrl('Search-Show','cgid','Rugby')$" title=""&gt;Rugby&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a href="$httpUrl('Search-Show','cgid','Swimming')$" title=""&gt;Swimming&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','Tennis')$"&gt;Tennis&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','miCoach')$"&gt;miCoach&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','adidas by Stella McCartney')$"&gt;adidas by Stella McCartney&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','Specialist Sports')$"&gt;Specialist Sports&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','adidas Neo')$"&gt;adidas NEO Label&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','adidas SLVR')$"&gt;adidas SLVR&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="$httpUrl('Search-Show','cgid','Porsche Design Sport')$"&gt;Porsche Design Sport&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="http://www.adidas.com/campaigns/adidasskateboarding/content/index.asp?strcountry_adidascom=de"&gt;Skateboarding&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="hiddenitem"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a title="" href="http://www.y-3.com"&gt;Y-3&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class="navigation-toggler"&gt;
+    &lt;div class="navigation_background"&gt;&lt;a class="more"&gt;More&lt;/a&gt; 			&lt;a class="less"&gt;Close&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</body>
+      </html>
+    </content>
+    <customer-groups>
+      <customer-group group-id="mobile"/>
+    </customer-groups>
+  </slot-configuration>
+</slot-configurations>

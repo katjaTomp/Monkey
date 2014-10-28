@@ -1,0 +1,1455 @@
+wa<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+       <folder folder-id="ProductCarousel">
+        <display-name xml:lang="x-default">Product Carousel</display-name>
+        <description xml:lang="x-default">Product Carousel</description>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="contentRenderingTemplate">productlist/components/productcarousel.isml</custom-attribute>
+        </custom-attributes>
+        <attribute-groups>
+            <attribute-group group-id="Certona">
+                <display-name xml:lang="x-default">Certona</display-name>
+                <attribute attribute-id="certonaZoneId" system="false"/>
+                <attribute attribute-id="certonaCustomValues" system="false"/>
+                <attribute attribute-id="certonaRecommendationCount" system="false"/>
+            </attribute-group>
+            <attribute-group group-id="Configuration">
+                <display-name xml:lang="x-default">Configuration</display-name>
+                <attribute attribute-id="mode" system="false"/>
+                <attribute attribute-id="HockeyCardType" system="false"/>
+                <attribute attribute-id="CarouselWidth" system="false"/>
+                <attribute attribute-id="ProductIDs" system="false"/>
+            </attribute-group>
+            <attribute-group group-id="Search">
+                <display-name xml:lang="x-default">Search</display-name>
+                <attribute attribute-id="searchRefinements" system="false"/>
+                <attribute attribute-id="searchSortingRule" system="false"/>
+                <attribute attribute-id="searchLimit" system="false"/>
+            </attribute-group>
+            <attribute-group group-id="Title">
+                <display-name xml:lang="x-default">Title</display-name>
+                <attribute attribute-id="ctaTitle" system="false"/>
+                <attribute attribute-id="ctaTitleColor" system="false"/>
+            </attribute-group>
+        </attribute-groups>
+    </folder>
+
+    <content content-id="store_product_recommendations">
+        <display-name xml:lang="x-default">Store finder Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">store_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">také se vám může líbit</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Du vil måske også kunne lide</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri articoli che potrebbero interessarti</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen bekeken ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">może Ci się również spodobać</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Você também poderá gostar</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">вам также может понравиться</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">tiež by sa vám mohlo páčiť</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Du kanske också gillar</custom-attribute>            
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="account-page_product_recommendations">
+        <display-name xml:lang="x-default">Account Page Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">threefourth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">12</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">account_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Vi anbefaler</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Wir empfehlen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Wir empfehlen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Nous vous recommandons</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Nous vous recommandons</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Ti consigliamo</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Wat wij aanraden</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Nós recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Мы рекомендуем</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Vi rekommenderar</custom-attribute>    
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="certona-cart-recommendations">
+        <display-name xml:lang="x-default">Cart Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">cart_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Andre købte også</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Les autres ont aussi acheté</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Les clients ayant consulté cet article ont également  </custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri utenti hanno acquistato anche</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen kochten ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Outros também compraram</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Выбор других пользователей</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Andra köpte också</custom-attribute>
+            <custom-attribute attribute-id="ctaTitleColor">black</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="certona-empty-cart-recommendations">
+        <display-name xml:lang="x-default">Empty Cart Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">emptycart_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Vi anbefaler</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Wir empfehlen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Wir empfehlen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Nous vous recommandons</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Nous vous recommandons</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Ti consigliamo</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Wat wij aanraden</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Nós recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Мы рекомендуем</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Vi rekommenderar</custom-attribute>          
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="certona-top_pdp-recommendations">
+        <display-name xml:lang="x-default">PDP Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">product_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">také se vám může líbit</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Du vil måske også kunne lide</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri articoli che potrebbero interessarti</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen bekeken ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">może Ci się również spodobać</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Você também poderá gostar</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">вам также может понравиться</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">tiež by sa vám mohlo páčiť</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Du kanske också gillar</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="certona-bottom_pdp-recommendations">
+        <display-name xml:lang="x-default">PDP Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">product2_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Andre købte også</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Les autres ont aussi acheté</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Les autres ont aussi acheté</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri utenti hanno acquistato anche</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen kochten ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Outros também compraram</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Выбор других пользователей</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Andra köpte också</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="checkout-right_product_recommendations">
+        <display-name xml:lang="x-default">Checkout Right Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">cart_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Andre købte også</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Les autres ont aussi acheté</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Les clients ayant consulté cet article ont également  </custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri utenti hanno acquistato anche</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen kochten ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Outros também compraram</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Выбор других пользователей</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Andra köpte också</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="config-product_recommendations">
+        <display-name xml:lang="x-default">Config Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">20</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">product_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Andre købte også</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Les autres ont aussi acheté</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Les autres ont aussi acheté</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri utenti hanno acquistato anche</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen kochten ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Outros também compraram</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Выбор других пользователей</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Andra köpte också</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="confirmation-page_product_recommendations">
+        <display-name xml:lang="x-default">Confirmation Page Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">thank_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Andre købte også</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Les autres ont aussi acheté</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Les autres ont aussi acheté</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri utenti hanno acquistato anche</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen kochten ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Outros também compraram</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Выбор других пользователей</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Andra köpte också</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="glp-men_product_recommendations">
+        <display-name xml:lang="x-default">GLP Men Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">threefourth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">12</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">genlanding_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Best of Men's</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Nejlepší pánské</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Det bedste Herre</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Beste Männerprodukte</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Beste Männerprodukte</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Best of Men's</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Best of Men's</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Best of Men's</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Best of Men's</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Best of Men's</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Los mejores productos para hombre</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Los mejores productos para hombre</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Los mejores productos para hombre</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Los mejores productos para hombre</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Los mejores productos para hombre</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Los mejores productos para hombre</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Best of Men's</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Best of Men's</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Tendances Hommes</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Tendances Hommes</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Il meglio per l'uomo</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Het beste van heren</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Męski wybór</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">O melhor masculino</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Лучшее для него</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Najlepšie pánske </custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Det bästa från Herr</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="glp-women_product_recommendations">
+        <display-name xml:lang="x-default">GLP Women Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">threefourth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">12</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">genlanding_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Women's trends</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Dámské trendy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Dame trends</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Trends für Frauen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Trends für Frauen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Women's trends</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Women's trends</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Women's trends</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Women's trends</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Women's trends</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Las últimas tendencias para mujer</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Las últimas tendencias para mujer</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Las últimas tendencias para mujer</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Las últimas tendencias para mujer</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Las últimas tendencias para mujer</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Las últimas tendencias para mujer</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Women's trends</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Women's trends</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Tendances Femmes</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Tendances Femmes</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Trend femminili</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Women's trends</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Damskie trendy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Tendências Women</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Лучшее для нее</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Dámske trendy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Trend Dam</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="glp-kids_product_recommendations">
+        <display-name xml:lang="x-default">GLP Kids Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">threefourth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">12</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">genlanding_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Kids' favourites</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Nejoblíbenější dětské</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Børnefavoritter</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Bei Kindern sehr beliebt</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Bei Kindern sehr beliebt</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Kids' favourites</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Kids' favourites</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Kids' favourites</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Kids' favourites</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Kids' favourites</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Los favoritos de los más pequeños</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Los favoritos de los más pequeños</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Los favoritos de los más pequeños</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Los favoritos de los más pequeños</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Los favoritos de los más pequeños</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Los favoritos de los más pequeños</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Kids' favourites</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Kids' favourites</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Les préférés des enfants</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Les préférés des enfants</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">I preferiti dei bambini</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Kids' favourites</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Ulubione przez Dzieci</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Os favoritos Kids</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Лучшее для детей</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Detské obľúbené</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Favoriter Barn</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="horizontal_product_recommendations">
+        <display-name xml:lang="x-default">Horizontal Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">product2_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Andre købte også</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Les autres ont aussi acheté</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Les autres ont aussi acheté</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri utenti hanno acquistato anche</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen kochten ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Outros também compraram</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Выбор других пользователей</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Andra köpte också</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="minicart-you-may-also-like-horizontal">
+        <display-name xml:lang="x-default">Mini Cart Product recommendations</display-name>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">threefourth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">12</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">cartoverlay_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Andre købte også</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Andere kauften auch</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Otros también compraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Others also bought</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Les autres ont aussi acheté</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Les clients ayant consulté cet article ont également</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri utenti hanno acquistato anche</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen kochten ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Outros também compraram</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Выбор других пользователей</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Andra köpte också</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="mobile_horizontal_product_recommendations">
+        <display-name xml:lang="x-default">Mobile Horizontal Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">threecolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">product_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">také se vám může líbit</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Du vil måske også kunne lide</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri articoli che potrebbero interessarti</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen bekeken ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">może Ci się również spodobać</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Você também poderá gostar</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">вам также может понравиться</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">tiež by sa vám mohlo páčiť</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Du kanske också gillar</custom-attribute> 
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="mobile_top-rated_product_recommendations">
+        <display-name xml:lang="x-default">MOBILE - Top Rated Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">home_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Vi anbefaler</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Wir empfehlen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Wir empfehlen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">We recommend</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Nous vous recommandons</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Nous vous recommandons</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Ti consigliamo</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Wat wij aanraden</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Nós recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Мы рекомендуем</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Vi rekommenderar</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="no-search-result_product_recommendations">
+        <display-name xml:lang="x-default">No Search Result Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">nosearch_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Or have a look at…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Eller kig på...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Sieh dir das mal an…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Sieh dir das mal an…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Or have a look at…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Or have a look at…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Or have a look at…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Or have a look at…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Or have a look at…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">O echa un vistazo a...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">O echa un vistazo a...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">O echa un vistazo a...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">O echa un vistazo a...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Te recomendamos</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Or have a look at…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Or have a look at…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Jetez un œil à...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Jetez un œil à...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Dai un'occhiata a...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Of bekijk deze eens</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Conheça este...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Или этого...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Eller kolla in...</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="outofstock-horizontal_product_recommendations">
+        <display-name xml:lang="x-default">Out of stock Horizontal Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">oos_rr</custom-attribute>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">This product is unavailable, but why not try…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Tento produkt není dostupný, ale proč nezkusit...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Dette produkt er ikke tilgængeligt, men hvorfor ikke prøve...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das gewünschte Produkt ist nicht verfügbar, aber wie findest du diese Produkte?</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das gewünschte Produkt ist nicht verfügbar, aber wie findest du diese Produkte?</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">This product is unavailable, but why not try…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">This product is unavailable, but why not try…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">This product is unavailable, but why not try…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">This product is unavailable, but why not try…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">This product is unavailable, but why not try…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">El producto seleccionado no está disponible, pero por qué no probar…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">El producto seleccionado no está disponible, pero por qué no probar...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">El producto seleccionado no está disponible, pero por qué no probar…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">El producto seleccionado no está disponible, pero por qué no probar…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">El producto seleccionado no está disponible, pero por qué no probar…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">El producto seleccionado no está disponible, pero por qué no probar...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">This product is unavailable, but why not try…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">This product is unavailable, but why not try…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Ce produit n'est pas disponible, mais pourquoi pas essayer…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Ce produit n'est pas disponible, mais pourquoi pas essayer…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Prodotto richiesto non disponibile. Perché non provi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Dit product is niet beschikbaar, maar waarom probeer je niet…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Produkt niedostępny, ale może spróbujesz...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Produto desejado não disponível. Por que não experimentar…</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">"Выбранный товар недоступен. Как насчет этих?"</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Tento produkt je nedostupný, ale prečo neskúsiť...</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Denna produkt är tillfälligt slut, men du kanske vill prova... </custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="plp_product_recommendations">
+        <display-name xml:lang="x-default">PLP Product recommendations</display-name>
+        <online-flag>false</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlisting_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">také se vám může líbit</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Du vil måske også kunne lide</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri articoli che potrebbero interessarti</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen bekeken ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">może Ci się również spodobać</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Você também poderá gostar</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">вам также может понравиться</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">tiež by sa vám mohlo páčiť</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Du kanske också gillar</custom-attribute> 
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="plp_product_recommendations_nohits">
+        <display-name xml:lang="x-default">PLP no hits Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">threefourth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">nosearch_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">také se vám může líbit</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Du vil måske også kunne lide</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri articoli che potrebbero interessarti</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen bekeken ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">może Ci się również spodobać</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Você também poderá gostar</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">вам также может понравиться</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">tiež by sa vám mohlo páčiť</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Du kanske också gillar</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="hp_product_recommendations">
+        <display-name xml:lang="x-default">HP Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">home_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">také se vám může líbit</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Du vil måske også kunne lide</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das könnte dir auch gefallen</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Los clientes también miraron</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">You may also like</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Vous aimerez aussi</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Altri articoli che potrebbero interessarti</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Anderen bekeken ook</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">może Ci się również spodobać</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Você também poderá gostar</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">вам также может понравиться</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">tiež by sa vám mohlo páčiť</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Du kanske också gillar</custom-attribute>             
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-golf_product_recommendations">
+        <display-name xml:lang="x-default">CLP Golf Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="x-default">Best of Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">To nejlepší z golfu</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Det bedste i Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das Beste aus Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das Beste aus Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Best of Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Best of Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Best of Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Best of Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Best of Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Lo mejor de Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Lo mejor de Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Lo mejor de Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Lo mejor de Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Lo mejor de Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Lo mejor de Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Best of Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Best of Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Le meilleur du Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Le meilleur du Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Il meglio del Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Het beste van Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Лучшее из коллекции Гольф</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Najlepsze z kategorii Golf</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">To najlepšie z golfu</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Det bästa från Golf</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-micoach_product_recommendations">
+        <display-name xml:lang="x-default">CLP micoach Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Best of miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Det bedste i miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Best of miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Det bästa från miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Best of miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Best of miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Best of miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Best of miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Best of miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das Beste aus miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das Beste aus miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Le meilleur du miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Le meilleur du miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Lo mejor de miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Lo mejor de miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Lo mejor de miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Lo mejor de miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Il meglio del miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Het beste van miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">To nejlepší z miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Najlepsze z miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Лучшее из коллекции MiCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">To najlepšie z miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Lo mejor de miCoach</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Lo mejor de miCoach</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-basketball_product_recommendations">
+        <display-name xml:lang="x-default">CLP Basketball Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Best of Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Det bedste i Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Best of Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Det bästa från Basket</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Best of Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Best of Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Best of Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Best of Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Best of Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das Beste aus Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das Beste aus Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Le meilleur du Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Le meilleur du Basketball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Lo mejor de Baloncesto</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Lo mejor de Baloncesto</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Lo mejor de Baloncesto</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Lo mejor de Baloncesto</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Il meglio del Basket</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Het beste van Basketbal</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">O melhor de Basquete</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">To nejlepší z basketbalu</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Najlepsze z kategorii Koszykówka</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Лучшее из коллекции Баскетбол</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">To najlepšie z basketbalu</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Lo mejor de Baloncesto</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Lo mejor de Baloncesto</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-football_product_recommendations">
+        <display-name xml:lang="x-default">CLP Football Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Best of Football</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Det bedste i fodbold</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Best of Football</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Det bästa från fotboll</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Best of Football</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Best of Football</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Best of Football</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Best of Football</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Best of Football</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das Beste aus Fußball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das Beste aus Fußball</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Le meilleur du Football</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Le meilleur du Football</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Lo mejor de Fútbol</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Lo mejor de Fútbol</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Lo mejor de Fútbol</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Lo mejor de Fútbol</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Il meglio del Calcio</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Het beste van Voetbal</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">O melhor de Futebol</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">To nejlepší z fotbalu</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Najlepsze z kategorii Futbol</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Лучшее из коллекции Футбол</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">To najlepšie z futbalu</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Lo mejor de Fútbol</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Lo mejor de Fútbol</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-originals_product_recommendations">
+        <display-name xml:lang="x-default">CLP Originals Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Most Wanted Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Mest eftertragtet Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Most Wanted Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Mest populära  Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Most Wanted Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Most Wanted Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Most Wanted Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Most Wanted Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Most Wanted Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Beliebteste Originals Produkte</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Beliebteste Originals Produkte</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Top Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Top Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Lo más buscado de Originals </custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Lo más buscado de Originals </custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Lo más buscado de Originals </custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Lo más buscado de Originals </custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">I prodotti Originals più desiderati</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Most Wanted Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">O melhor de Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Nejžádanější z originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Самые крутые вещи Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Najczęściej szukane originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Najžiadanejšie z originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Lo más buscado de Originals</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Lo más buscado de Originals</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-outdoor_product_recommendations">
+        <display-name xml:lang="x-default">CLP Outdoor Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Best of Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Det bedste i Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Best of Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Det bästa från Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Best of Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Best of Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Best of Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Best of Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Best of Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das Beste aus Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das Beste aus Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Le meilleur du Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Le meilleur du Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Lo mejor de Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Lo mejor de Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Lo mejor de Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Lo mejor de Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Il meglio del Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Лучшее из коллекции Туризм</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Het beste van Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">O melhor de Aventura</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">To nejlepší z outdooru</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Najlepsze z kategorii Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">To najlepšie z outdooru</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Lo mejor de Outdoor</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Lo mejor de Outdoor</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-pds_product_recommendations">
+        <display-name xml:lang="x-default">CLP PDS Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Top Sellers</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Mest sælgende</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Top Sellers</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Bästsäljare</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Top Sellers</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Top Sellers</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Top Sellers</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Top Sellers</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Top Sellers</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Bestseller</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Bestseller</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Meilleures ventes</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Meilleures ventes</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Los más vendidos</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Los más vendidos</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Los más vendidos</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Los más vendidos</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Più venduti</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Бестселлеры</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Bestsellers</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Mais vendidos</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Nejprodávanější</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Najpopularniejsze</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Najpredávanejšie</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Los más vendidos</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Los más vendidos</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-stella_product_recommendations">
+        <display-name xml:lang="x-default">CLP Stella Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Seneste trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Det senaste</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Neueste Trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Neueste Trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Dernières tendances</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Dernières tendances</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Últimas tendencias</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Últimas tendencias</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Últimas tendencias</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Últimas tendencias</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Ultimi trend</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Тренд сезона</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Laatste trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Tendências</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Doporučujeme</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Rekomendujemy</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Odporúčame</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Últimas tendencias</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Últimas tendencias</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-tennis_product_recommendations">
+        <display-name xml:lang="x-default">CLP Tennis Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Best of Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Det bedste i Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Best of Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Det bästa från Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Best of Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Best of Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Best of Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Best of Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Best of Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das Beste aus Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das Beste aus Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Le meilleur du Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Le meilleur du Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Lo mejor de Tenis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Lo mejor de Tenis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Lo mejor de Tenis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Lo mejor de Tenis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Il meglio del Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Лучшее из коллекции Теннис</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Het beste van Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">O melhor de Tennis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">To nejlepší z tenisu</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Najlepsze z kategorii Tenis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">To najlepšie z tenisu</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Lo mejor de Tenis</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Lo mejor de Tenis</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-training_product_recommendations">
+        <display-name xml:lang="x-default">CLP Training Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Best of Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Det bedste i Träning</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Best of Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Det bästa från Träning</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Best of Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Best of Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Best of Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Best of Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Best of Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Das Beste aus Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Das Beste aus Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Le meilleur du Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Le meilleur du Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Lo mejor de Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Lo mejor de Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Lo mejor de Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Lo mejor de Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Il meglio del Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Лучшее из коллекции Фитнес</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Het beste van Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">O melhor de Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">To nejlepší z tréninku</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Najlepsze z kategorii Trening</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">To najlepšie z tréningu</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Lo mejor de Training</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Lo mejor de Training</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-neo_product_recommendations">
+        <display-name xml:lang="x-default">CLP NEO Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-GB">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="da-DK">Seneste trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fi-FI">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sv-SE">Det senaste</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-BE">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-IE">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-CA">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-AU">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="en-NZ">Latest trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-DE">Neueste Trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="de-AT">Neueste Trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-FR">Dernières tendances</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Dernières tendances</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-ES">Últimas tendencias</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CO">Últimas tendencias</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-MX">Últimas tendencias</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-AR">Últimas tendencias</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="it-IT">Ultimi trend</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Тренд сезона</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="nl-NL">Laatste trends</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pt-BR">Tendências</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="cs-CZ">Nejžádanější z Neo</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="pl-PL">Najczęściej szukane Neo</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="sk-SK">Najžiadanejšie z Neo</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-CL">Lo más buscado de Neo</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="es-PE">Lo más buscado de Neo</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+    <content content-id="clp-y3_product_recommendations">
+        <display-name xml:lang="x-default">CLP Y-3 Product recommendations</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="CarouselWidth">fullwidth</custom-attribute>
+            <custom-attribute attribute-id="HockeyCardType">fourcolumn</custom-attribute>
+            <custom-attribute attribute-id="certonaRecommendationCount">16</custom-attribute>
+            <custom-attribute attribute-id="certonaZoneId">catlanding_rr</custom-attribute>
+                <custom-attribute attribute-id="ctaTitle" xml:lang="ru-RU">Лучшее из коллекции Y-3</custom-attribute>
+            <custom-attribute attribute-id="mode">CERTONA</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="ProductCarousel"/>
+        </folder-links>
+    </content>
+
+</library>

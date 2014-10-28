@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+		  <content content-id="cvn-code">
+		    <online-flag>true</online-flag>
+		    <searchable-flag>false</searchable-flag>
+		    <page-attributes/>
+		    <custom-attributes><custom-attribute attribute-id="body" xml:lang="cs-CZ"></custom-attribute><custom-attribute attribute-id="body" xml:lang="da-DK"></custom-attribute><custom-attribute attribute-id="body" xml:lang="nl-NL"></custom-attribute><custom-attribute attribute-id="body" xml:lang="en-IE"></custom-attribute><custom-attribute attribute-id="body" xml:lang="en-GB"></custom-attribute><custom-attribute attribute-id="body" xml:lang="fi-FI"></custom-attribute><custom-attribute attribute-id="body" xml:lang="fr-BE"></custom-attribute><custom-attribute attribute-id="body" xml:lang="fr-FR"></custom-attribute><custom-attribute attribute-id="body" xml:lang="de-DE"></custom-attribute><custom-attribute attribute-id="body" xml:lang="de-AT"></custom-attribute><custom-attribute attribute-id="body" xml:lang="it-IT"></custom-attribute><custom-attribute attribute-id="body" xml:lang="pl-PL"></custom-attribute><custom-attribute attribute-id="body" xml:lang="sk-SK"></custom-attribute><custom-attribute attribute-id="body" xml:lang="es-ES"></custom-attribute><custom-attribute attribute-id="body" xml:lang="sv-SE"></custom-attribute>
+    </custom-attributes>
+  </content>
+</library>

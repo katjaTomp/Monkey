@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <content content-id="BRAND_football-clotasdasdhing">
+        <display-name xml:lang="fr-CA">Football</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes />
+        <custom-attributes>
+            <custom-attribute attribute-id="ctaImage" xml:lang="fr-CA">brand/images/2012/12/clothing-lahm-230x200_33-14093.jpg</custom-attribute>
+            <custom-attribute attribute-id="ctaTitle" xml:lang="fr-CA">Football Vêtements</custom-attribute>
+            <custom-attribute attribute-id="ctaLinkTitle1" xml:lang="fr-CA">VOIR LES VÊTEMENTS</custom-attribute>
+            <custom-attribute attribute-id="ctaLinkURL1" xml:lang="fr-CA">/catalogue/football-clothing</custom-attribute>
+            <custom-attribute attribute-id="ctaLinkDataType1">internallink</custom-attribute>
+            <custom-attribute attribute-id="contentType">Cartridge</custom-attribute>
+            <custom-attribute attribute-id="transactionId">tcm:0-822897-66560</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+            <classification-link folder-id="BRANDSPROMO" />
+        </folder-links>
+    </content>
+</library>

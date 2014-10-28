@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+		  <content content-id="Checkout-session-timeout-overlay">
+		    <online-flag>true</online-flag>
+		    <searchable-flag>false</searchable-flag>
+		    <page-attributes/>
+		    <custom-attributes><custom-attribute attribute-id="body" xml:lang="cs-CZ">
+&lt;h2&gt;Platnost vaší relace vypršela&lt;br/&gt;&amp;#13;
+Co to znamená?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Z bezpečnostních důvodů vyprší platnost vaší relace po 20 minutách nečinnosti.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Vaše práce ale nebyla ztracena. Obsah vašeho košíku byl uložen.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="da-DK">
+&lt;h2&gt;Your Session Expired&lt;br/&gt;&amp;#13;
+What does that mean?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;For your online safety and to protect your personal data a browser session expires after about 20 minutes of inactivity.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Your hard work did not get lost though. We saved your bag for you.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="nl-NL">
+&lt;h2&gt;Je sessie is verlopen&lt;br/&gt;&amp;#13;
+Wat betekent dat?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Voor jouw online veiligheid en ter bescherming van je persoonlijke gegevens verloopt een browsersessie na ongeveer 20 minuten inactiviteit.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Je harde werk is gelukkig niet verloren gegaan. We hebben je winkelwagen voor je bewaard.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="en-IE">
+&lt;h2&gt;Your Session Expired&lt;br/&gt;&amp;#13;
+What does that mean?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;For your online safety and to protect your personal data a browser session expires after about 20 minutes of inactivity.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Your hard work did not get lost though. We saved your bag for you.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="en-GB">
+&lt;h2&gt;Your Session Expired&lt;br/&gt;&amp;#13;
+What does that mean?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;For your online safety and to protect your personal data a browser session expires after about 20 minutes of inactivity.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Your hard work did not get lost though. We saved your bag for you.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="fi-FI">
+&lt;h2&gt;Your Session Expired&lt;br/&gt;&amp;#13;
+What does that mean?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;For your online safety and to protect your personal data a browser session expires after about 20 minutes of inactivity.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Your hard work did not get lost though. We saved your bag for you.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="fr-BE">
+&lt;h2&gt;Your Session Expired&lt;br/&gt;&amp;#13;
+What does that mean?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;For your online safety and to protect your personal data a browser session expires after about 20 minutes of inactivity.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Your hard work did not get lost though. We saved your bag for you.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="fr-FR">
+&lt;h2&gt;Ta session a expiré&lt;br/&gt;&amp;#13;
+Qu’est-ce que cela signifie?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Pour ta sécurité et la protection de tes données personnelles, une session expire après 20 minutes d'inactivité.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Tout ce que tu as fait n'est pas perdu. Nous avons sauvegardé ton panier.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="de-DE">
+&lt;h2&gt;Deine Sitzung ist abgelaufen&lt;br/&gt;
+Was bedeutet das?&lt;/h2&gt;
+&lt;p&gt;Zu deiner Sicherheit im Internet und zum Schutz deiner persönlichen Daten läuft eine Browsersitzung ab, wenn du circa 20 Minuten lang inaktiv warst.&lt;/p&gt;
+&lt;p&gt;Deine Arbeit ist jedoch nicht verloren gegangen. Wir haben deinen Einkaufskorb gespeichert.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="de-AT">
+&lt;h2&gt;Deine Sitzung ist abgelaufen&lt;br/&gt;&amp;#13;
+Was bedeutet das?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Zu deiner Sicherheit im Internet und zum Schutz deiner persönlichen Daten läuft eine Browsersitzung ab, wenn du circa 20 Minuten lang inaktiv warst.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Deine Arbeit ist jedoch nicht verloren gegangen. Wir haben deinen Einkaufskorb gespeichert.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="it-IT">
+&lt;h2&gt;La sessione è scaduta&lt;br/&gt;
+Che cosa significa?&lt;/h2&gt;
+&lt;p&gt;Per la tua sicurezza online e per proteggere i tuoi dati personali, la sessione scade dopo circa 20 minuti di inattività.&lt;/p&gt;
+&lt;p&gt;Il tuo duro lavoro non è  stato sprecato. Abbiamo salvato il tuo carrello.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="pl-PL">
+&lt;h2&gt;Sesja wygasła&lt;br/&gt;&amp;#13;
+Co to oznacza?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Dla ochrony Twoich danych osobowych oraz dla bezpieczeństwa nieaktywna przez około 20 minut sesja automatycznie wygasa.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Ale Twoja praca nie przepadła. Zapisaliśmy zawartość Twojego koszyka.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="sk-SK">
+&lt;h2&gt;Platnosť vašej relácie vypršala&lt;br/&gt;&amp;#13;
+Čo to znamená?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Z bezpečnostných dôvodov vyprší platnosť relácie prehliadača po 20 minútach nečinnosti.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Vaša práca sa ale nestratí. Obsah vášho košíka sme uložili.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="es-ES">
+&lt;h2&gt;La sesión ha caducado&lt;br/&gt;&amp;#13;
+¿Qué significa esto?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Por cuestiones de seguridad en Internet y para proteger tus datos personales, cada sesión que inicias en nuestra página web caduca después de alrededor de 20 minutos de inactividad.&lt;/p&gt;&amp;#13;
+&lt;p&gt;No obstante, todo tu esfuerzo no ha caído en saco roto. Hemos guardado los productos que había en tu carrito.&lt;/p&gt;
+</custom-attribute><custom-attribute attribute-id="body" xml:lang="sv-SE">
+&lt;h2&gt;Your Session Expired&lt;br/&gt;&amp;#13;
+What does that mean?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;For your online safety and to protect your personal data a browser session expires after about 20 minutes of inactivity.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Your hard work did not get lost though. We saved your bag for you.&lt;/p&gt;
+</custom-attribute>
+    </custom-attributes>
+  </content>
+</library>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slot-configurations xmlns="http://www.demandware.com/xml/impex/slot/2008-09-08">
+  <slot-configuration slot-id="shop-home-page-menu" context="global" configuration-id="shop-home-page-menu" default="true" assigned-to-site="false">
+    <template>slots/html/htmlslotcontainer.isml</template>
+    <enabled-flag>true</enabled-flag>
+    <content>
+      <html>
+        <body xml:lang="nl">&lt;ul&gt;
+    &lt;li&gt;
+    &lt;h3&gt;Most popular&lt;/h3&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href="/"&gt;Originals Products&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/"&gt;Porsche Design Sports&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/"&gt;Star wars&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/"&gt;Stella McCartney&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/"&gt;London 2012&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/"&gt;Superstar collection&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/"&gt;Adizero F50&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/"&gt;OBYO Jeremy Scott&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/"&gt;Y-3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/"&gt;Summer Collection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</body>
+      </html>
+    </content>
+  </slot-configuration>
+</slot-configurations>
